@@ -1,0 +1,538 @@
+
+3/19/2013 11:27:00 AM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 11:45:45 AM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 11:48:26 AM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 11:50:28 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+3/19/2013 11:51:29 AM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 12:18:36 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 12:19:17 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 12:19:57 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 12:39:57 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 12:41:37 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 12:43:35 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:06:58 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:08:42 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:09:04 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:28:00 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:30:55 PM
+System.UnauthorizedAccessException: Access to the path 'E:\OfficeProject\CrowdBoardsApp\thumbnail\.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at Telerik.Web.UI.PostedFile.SaveAs(String fileName, Boolean overwrite)
+   at Telerik.Web.UI.UploadedFile.SaveAs(String fileName)
+   at CrowdBoardsApp.test.btnUploadCoverPic_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\test.aspx.vb:line 154
+3/19/2013 1:31:24 PM
+System.UnauthorizedAccessException: Access to the path 'E:\OfficeProject\CrowdBoardsApp\thumbnail\.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at Telerik.Web.UI.PostedFile.SaveAs(String fileName, Boolean overwrite)
+   at Telerik.Web.UI.UploadedFile.SaveAs(String fileName)
+   at CrowdBoardsApp.test.btnUploadCoverPic_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\test.aspx.vb:line 154
+3/19/2013 1:31:38 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:32:37 PM
+System.UnauthorizedAccessException: Access to the path 'E:\OfficeProject\CrowdBoardsApp\thumbnail\.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at Telerik.Web.UI.PostedFile.SaveAs(String fileName, Boolean overwrite)
+   at Telerik.Web.UI.UploadedFile.SaveAs(String fileName)
+   at CrowdBoardsApp.test.btnUploadCoverPic_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\test.aspx.vb:line 154
+3/19/2013 1:34:19 PM
+System.UnauthorizedAccessException: Access to the path 'E:\OfficeProject\CrowdBoardsApp\thumbnail\.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at Telerik.Web.UI.PostedFile.SaveAs(String fileName, Boolean overwrite)
+   at Telerik.Web.UI.UploadedFile.SaveAs(String fileName)
+   at CrowdBoardsApp.test.btnUploadCoverPic_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\test.aspx.vb:line 154
+3/19/2013 1:35:17 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:37:09 PM
+System.UnauthorizedAccessException: Access to the path 'E:\OfficeProject\CrowdBoardsApp\thumbnail\.jpg' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at Telerik.Web.UI.PostedFile.SaveAs(String fileName, Boolean overwrite)
+   at Telerik.Web.UI.UploadedFile.SaveAs(String fileName)
+   at CrowdBoardsApp.test.btnUploadCoverPic_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\test.aspx.vb:line 154
+3/19/2013 1:40:45 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:46:45 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:47:40 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:51:52 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 1:55:07 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 2:07:52 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+3/19/2013 2:07:58 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASPSnippets.FaceBookAPI.FaceBookConnect.Authorize(String scope, String redirectUrl)
+   at CrowdBoardsApp._Default.signInFacebook_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 37
+3/19/2013 2:08:37 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 2:16:12 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 2:23:41 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 2:24:45 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.OldHome.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\OldHome.aspx.vb:line 14
+3/19/2013 2:24:51 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 2:34:27 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 2:52:23 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 3:07:14 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+3/19/2013 3:07:20 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 4:29:29 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 4:32:15 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 4:43:23 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 4:53:43 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 5:03:17 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.BoardDetails.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 136
+   at CrowdBoardsApp.BoardDetails.surfBoardsRepeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 147
+3/19/2013 5:06:28 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 5:14:44 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 5:25:48 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 6:00:06 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 6:05:53 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 6:51:01 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.BoardDetails.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 136
+   at CrowdBoardsApp.BoardDetails.surfBoardsRepeater_ItemCommand(Object source, RepeaterCommandEventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 147
+3/19/2013 6:52:46 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:09:03 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:13:09 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:15:21 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:15:42 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:19:22 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:20:37 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:28:04 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:29:44 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:31:07 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.BoardDetails.ShowNotifications() in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 57
+   at CrowdBoardsApp.BoardDetails.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 36
+3/19/2013 7:31:30 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:40:29 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:45:34 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21
+3/19/2013 7:51:04 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 21

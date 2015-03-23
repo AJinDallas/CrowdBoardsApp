@@ -1,0 +1,185 @@
+
+3/7/2013 11:17:57 AM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'owner1' to data type int.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 72
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 16
+ClientConnectionId:52f799bd-cd14-4dda-803e-88bdad3bb238
+3/7/2013 11:19:05 AM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'owner1' to data type int.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 72
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 16
+ClientConnectionId:52f799bd-cd14-4dda-803e-88bdad3bb238
+3/7/2013 12:59:59 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'amir' to data type int.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 124
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+ClientConnectionId:916869c8-3b3d-4e4d-b8bd-16c67d014b46
+3/7/2013 1:00:21 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'ziaul' to data type int.
+   at CrowdBoardsApp.Messages.LoadRootNodes() in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 44
+   at CrowdBoardsApp.Messages.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 13
+ClientConnectionId:916869c8-3b3d-4e4d-b8bd-16c67d014b46
+3/7/2013 3:03:54 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.GetUserID(String UserName) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 297
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 21
+3/7/2013 3:04:05 PM
+System.ArgumentException: Column 'UserID1UserName' does not belong to table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 134
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 23
+3/7/2013 3:10:59 PM
+System.ArgumentException: Column 'UserID1UserName' does not belong to table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 134
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 23
+3/7/2013 3:12:52 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.GetUserID(String UserName) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 297
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 21
+3/7/2013 3:25:44 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.BoardsFriendsInvestmentsOfUser() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 180
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 24
+3/7/2013 3:26:29 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.BoardsFriendsInvestmentsOfUser() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 181
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 25
+3/7/2013 3:26:34 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'ziaul' to data type int.
+   at CrowdBoardsApp.MyProfile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 119
+   at CrowdBoardsApp.MyProfile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 16
+ClientConnectionId:4f7892d6-9406-4222-9a61-bba59637d6d6
+3/7/2013 3:26:37 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'ziaul' to data type int.
+   at CrowdBoardsApp.Messages.LoadRootNodes() in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 44
+   at CrowdBoardsApp.Messages.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 13
+ClientConnectionId:4f7892d6-9406-4222-9a61-bba59637d6d6
+3/7/2013 3:26:43 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.BoardsFriendsInvestmentsOfUser() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 181
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 25
+3/7/2013 3:26:45 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.BoardsFriendsInvestmentsOfUser() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 181
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 25
+3/7/2013 3:26:49 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.BoardsFriendsInvestmentsOfUser() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 181
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 25
+3/7/2013 3:27:45 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.BoardsFriendsInvestmentsOfUser() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 181
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 25
+3/7/2013 5:40:40 PM
+System.InvalidCastException: Conversion from string "Ziaul" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 154
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+3/7/2013 6:01:59 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'ziaul' to data type int.
+   at CrowdBoardsApp.Messages.LoadRootNodes() in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 44
+   at CrowdBoardsApp.Messages.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 13
+ClientConnectionId:45407d61-afbc-4311-a10b-634f36fa9a09
+3/7/2013 6:57:18 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'ziaul' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteDbCommand(DbCommand command, DataSourceOperation operation)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteUpdate(IDictionary keys, IDictionary values, IDictionary oldValues)
+   at System.Web.UI.WebControls.SqlDataSource.Update()
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 44
+ClientConnectionId:2658ba50-9bc0-483b-9981-8abc253b9c51
+3/7/2013 6:57:23 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'ziaul' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteDbCommand(DbCommand command, DataSourceOperation operation)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteUpdate(IDictionary keys, IDictionary values, IDictionary oldValues)
+   at System.Web.UI.WebControls.SqlDataSource.Update()
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 44
+ClientConnectionId:2658ba50-9bc0-483b-9981-8abc253b9c51
+3/7/2013 6:58:37 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'ziaul' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteDbCommand(DbCommand command, DataSourceOperation operation)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteUpdate(IDictionary keys, IDictionary values, IDictionary oldValues)
+   at System.Web.UI.WebControls.SqlDataSource.Update()
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 44
+ClientConnectionId:2658ba50-9bc0-483b-9981-8abc253b9c51
+3/7/2013 7:22:41 PM
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@UserName".
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 132
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395
+3/7/2013 7:22:44 PM
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@UserName".
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 132
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395
+3/7/2013 7:22:55 PM
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@UserName".
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 132
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395
+3/7/2013 7:22:57 PM
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@UserName".
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 132
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395
+3/7/2013 7:23:00 PM
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@UserName".
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 132
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395
+3/7/2013 7:23:02 PM
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@UserName".
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 132
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395
+3/7/2013 7:24:15 PM
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@UserName".
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 132
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395
+3/7/2013 7:25:00 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'amir' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.SqlDataSource.Select(DataSourceSelectArguments arguments)
+   at CrowdBoardsApp.OldHome.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\OldHome.aspx.vb:line 13
+ClientConnectionId:390c57b7-8d44-4b41-90a0-54a711025395

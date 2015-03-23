@@ -1,0 +1,13 @@
+
+4/11/2013 11:59:34 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Board.LoadBoardInfo() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 199
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38
+4/11/2013 11:59:49 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Board.LoadBoardInfo() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 199
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38
+4/11/2013 12:01:16 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Board.LoadBoardInfo() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 199
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38

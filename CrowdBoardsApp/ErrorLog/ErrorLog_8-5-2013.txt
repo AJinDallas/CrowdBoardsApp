@@ -1,0 +1,20 @@
+
+8/5/2013 11:32:54 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Messages.LoadRootNodes() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Messages.aspx.vb:line 44
+   at CrowdBoardsApp.Messages.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Messages.aspx.vb:line 13
+8/5/2013 12:17:30 PM
+System.InvalidCastException: Conversion from string "$" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.BoardDetails.LoadAllBoardsRepeater() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\BoardDetails.aspx.vb:line 95
+   at CrowdBoardsApp.BoardDetails.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\BoardDetails.aspx.vb:line 75
+8/5/2013 3:24:23 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Board.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Board.aspx.vb:line 101
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Board.aspx.vb:line 37
+8/5/2013 3:24:55 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Board.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Board.aspx.vb:line 101
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Board.aspx.vb:line 37

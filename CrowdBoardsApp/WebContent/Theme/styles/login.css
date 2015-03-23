@@ -1,0 +1,249 @@
+
+/* First Row CSS
+-------------------------------------------------- */
+
+.first-row {
+	width: 100%;
+	height: 100px;
+    background: #FFFFFF;
+    border-radius: 0 0 2px 2px;
+    -webkit-box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+}
+	.first-row .floating-left {
+		float: left;
+	}
+	.first-row .floating-right {
+		float: right;
+		height: 100%;
+		padding-top: 25px;
+		padding-right: 25px;
+		font-weight: 600;
+	}
+		.first-row .floating-right form {
+			font-size: 30px; 
+		}
+			.first-row .floating-right form input {
+				font-size: 20px;
+				width: 200px;
+				margin-left: 8px;
+				padding-left: 5px;
+				line-height: 1.5em;
+			}
+
+/* Main Body CSS
+-------------------------------------------------- */
+
+.main-body {
+	width: 100%;
+	min-height: 480px;
+	margin-top: 8px;
+	margin-bottom: 88px;
+	background: #FFFFFF;
+    border-radius: 2px;
+    -webkit-box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+     overflow: hidden;
+}
+
+.left-portion {
+	float: left;
+	height: 100%;
+	width: 68%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+	.left-portion .main-picture img {
+		width: 100%;
+		border-radius: 2px;
+	    -webkit-box-shadow:    0 0 6px rgba(150, 149, 150, .3);
+	            box-shadow:    0 0 6px rgba(150, 149, 150, .3);
+	}
+
+	.left-portion .informative-links {
+		padding: 25px 15px;		
+		text-align: center;
+		height: 100%;
+	}
+
+		.left-portion .informative-links a {
+			text-decoration: none;
+			font-size: 26px;
+			font-weight: 100;
+			color: #75B4C6;
+		}
+
+		.left-portion .informative-links .left {
+			float: left;
+			text-align: left;
+		}
+		.left-portion .informative-links .middle {
+			display: inline-block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.left-portion .informative-links .right {
+			float: right;
+			text-align: right;
+		}
+
+
+.right-portion {
+	float: left;
+	min-height: 470px;
+	width: 32%;
+}
+
+	.right-portion .title {
+		font-size: 30px;
+		text-align: left;
+		width: 100%;
+		margin-top: 18px;
+		margin-bottom: 18px;
+		margin-left: 25px;
+		font-weight: 600;
+	}
+
+	.right-portion form {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.right-portion form input {
+		font-size: 18px;
+		line-height: 2em;
+		width: 100%;
+		margin-bottom: 6px;
+		padding-left: 5px;
+	}
+
+	.right-portion .twotoa-row {
+		margin-left: -1%;
+	}
+
+	.right-portion .twotoa-row div {
+		width: 49%;
+		margin-left: 1%;
+		float: left;
+	}
+
+	.right-portion .sign-up-button {
+		margin-right: 25px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		float: right;
+		background: #75B4C6;
+		width: 200px;
+		height: 45px;
+		padding: 10px;
+		border-radius: 3px;
+		position: relative;
+			    -webkit-box-shadow:    0 1px 0 rgba(0, 0, 0, .1);;
+	            box-shadow:    0 1px 0 rgba(0, 0, 0, .1);;
+	}
+	.right-portion .sign-up-button .sign-up-button-text {
+		display: inline-block;
+		font-size: 26px;
+		position: absolute;
+		top: 10px;
+		right: 40px;
+
+	}
+
+	.right-portion .sign-up-button a {
+		display: block;
+		text-decoration: none;
+		color: #fff;
+		width: 100%;
+		height: 100%;
+	}
+	.right-portion .sign-up-button img {
+		width: 20%;
+		height: 100%;
+	}
+
+	.login-buttons {
+		margin-right: 25px;
+		margin-top: 5px;
+		clear:both;
+		float: right;
+	
+	}
+	.login-buttons img {
+		border-radius: 3px;
+	}
+
+
+/* Last Row CSS
+-------------------------------------------------- */
+
+
+.last-row {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 82px;
+    background: #3C3C3C;
+    border-radius: 2px 2px 0 0;
+    padding-top: 20px;
+    padding-right: 40px;
+    -webkit-box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+}
+
+.last-row .float-right {
+	float: right;
+}
+.last-row .float-right a {
+	text-decoration: none;
+	color: #75B4C6;
+	font-size: 24px;
+	font-weight: 100;
+	margin-right: 20px;
+}
+
+/* Pseudo Elements CSS
+-------------------------------------------------- */
+
+.right-portion .sign-up-button:hover {
+	background: #3C6C79;
+}
+
+.last-row .float-right a:hover, .last-row .float-left a:hover, .left-portion .informative-links a:hover {
+	color: #3C6C79;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+.last-row .float-left {
+	float: left;
+}
+.last-row .float-left a {
+    color: #75b4c6;
+    font-size: 24px;
+    font-weight: 100;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.sign-in-button {
+    padding: 4px 8px 5px;
+    font-size: 20px;    
+    font-weight: 600;
+    background-color: #75B4C6;
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.sign-in-button:hover {
+	background: #3C6C79;
+}

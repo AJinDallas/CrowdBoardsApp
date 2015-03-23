@@ -1,0 +1,250 @@
+    
+
+
+.first-row {
+	margin-bottom: 8px;
+	width: 100%;
+	height: 90px;
+	background: #fbfbfb;
+	border-radius: 0 0 3px 3px;
+    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+}
+
+.first-row span {
+	font-size: 32px;
+	font-weight: 600;
+	margin-left: 25px;
+	margin-top: 25px;
+	line-height: 3em;
+}
+
+.first-row span a {
+	text-decoration: none;
+	color: #75B4C6;
+	font-weight: 100;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+.first-row form {
+	margin-top: 30px;
+	margin-right: 60px;
+	float: right;
+}
+.first-row input[type="text"] {
+	float: right;
+	height: 30px;
+  width: 230px !important;
+  background-color: #fff !important;
+      -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(255, 255, 255, 0.9) inset;
+       -moz-box-shadow: 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(255, 255, 255, 0.9) inset;
+            box-shadow: 0 0 1px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(255, 255, 255, 0.9) inset;
+}
+
+
+.first-row span a:hover {
+	color: #3C6C79;
+}
+
+
+.main-body {
+	overflow: scroll;
+	padding: 25px;
+	padding-right: 20px;
+	margin-bottom: 8px;
+	width: 100%;
+	height: 600px;
+	background: #fbfbfb;
+	border-radius: 3px;
+    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+}
+
+
+		.boarder-lineup {
+			position: relative;;
+	        border-radius: 1px;
+	        display: inline-block;
+	        background: #FFFFFF;
+	        width: 292px;
+	        margin: 5px;
+	       	min-height: 140px;
+	        font-size: 18px;
+	        padding: 5px;
+          	-webkit-box-shadow: 0 0 8px rgba(150, 149, 150, 1);
+               	    box-shadow: 0 0 8px rgba(150, 149, 150, 1); 
+		}
+		.boarder-lineup img {
+			height: 125px;
+			width: 125px;
+			float: left;
+		}
+
+		.lineup-content {
+			font-size: 14px;
+			line-height: 1.3em;
+			color: #788586;
+			font-weight: 600;
+			padding-bottom: 34px;
+		}
+
+		.lineup-content div {
+
+		}
+		.boarder-lineup-image {
+			display: inline-block;
+			float: left;
+			margin-right: 5px;
+			position: relative;
+		}
+		.boarder-lineup-image .boarder-name-container {
+			position: absolute;
+			bottom: 5px;
+			padding-left: 5px;
+			padding-right: 5px;
+			width: 100%;
+		}
+
+		.boarder-lineup-image .boarder-name {
+			background: rgba(59, 59, 59, .6);
+			font-size: 16px;
+			width: 100%;
+			line-height: 1.5em;
+			text-align: center;
+		}
+
+		.boarder-lineup-image .boarder-name a {
+			text-decoration: none;
+			color: rgba(117, 180, 198, .4);
+		}
+
+		.lineup-content span {
+			font-weight: 400;
+		}
+		.lineup-content span:before {
+			content: " ";
+		}
+
+		.add-boarder {
+
+		}
+		#add-boarder-button, #remove-from-lineup-button, #add-to-lineup-button {
+			position: absolute;
+			bottom: 6px;
+			right: 12px;
+	        padding: 5px 11px 6px;
+	        font-size: 14px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      }
+
+
+      .boarder-lineup-image:hover .boarder-name a {
+	color: rgba(117, 180, 198, .6);
+}
+
+	#remove-from-lineup-button {
+			
+	        padding: 7px 2px 8px;
+	        font-size: 12px;    
+	}
+
+/* ---------------------------  Find Friends ------------------------- */
+
+.find-friends {
+	padding-bottom: 80px;
+
+}
+
+	.find-friends .title {
+		font-size: 28px;
+		margin-bottom: 28px;
+		margin-left: 10px;
+
+	}
+
+	.find-friends .connect-central {
+		padding-left: 40px;
+	}
+	.find-friends .connect-central div {
+		float: left;
+		font-size: 24px;
+		margin-right: 22px;
+		width: 400px;
+		margin-bottom: 15px;
+	}
+	.find-friends .connect-central div img {
+		height: 80px;
+		width: 80px;
+		margin-right: 8px;
+	}
+	.find-friends .connect-central .connect-button {
+		margin-right: 30px;
+		margin-top: 40px;
+		float: right;
+
+	}
+
+
+	.find-friends .connect-via-email {
+		clear:both;
+	}
+	.find-friends .connect-via-email .title {
+		line-height: 2em;
+		margin-bottom: 0;
+	}
+	.find-friends .connect-via-email form {
+		width: 40%;
+		margin-left: 380px;
+	}
+	.find-friends .connect-via-email form span {
+		float: right;
+		font-style: oblique;
+		margin-bottom: 2px;
+		margin-right: 10px;
+	}
+	.find-friends .connect-via-email form textarea {
+		height: 230px;
+	}
+	.find-friends .connect-via-email input {
+		margin-left: 20px;
+		margin-top: 180px;
+	}
+
+	.connect-button {
+
+	        padding: 12px 14px 14px;
+	        font-size: 20px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+
+	}
+
+
+/* ----------- Pseudo Code ------------- */
+.boarder-lineup-image .boarder-name a:hover {
+	color: rgba(117, 180, 198, .6);
+}
+
+#add-boarder-button:hover, .connect-button:hover, #remove-from-lineup-button:hover, #add-to-lineup-button:hover {
+	background: #3C6C79;
+}

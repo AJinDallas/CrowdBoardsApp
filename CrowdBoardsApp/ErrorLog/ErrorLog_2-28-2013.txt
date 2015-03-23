@@ -1,0 +1,43 @@
+
+2/28/2013 3:17:20 PM
+System.IO.IOException: The process cannot access the file 'E:\OfficeProject\CrowdBoardsApp\Upload\board-by-ziaul\Index.html' because it is being used by another process.
+   at CrowdBoardsApp.BoardPage.ReadFile(String path) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 81
+   at CrowdBoardsApp.BoardPage.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 18
+2/28/2013 3:22:54 PM
+System.IO.IOException: The process cannot access the file 'E:\OfficeProject\CrowdBoardsApp\Upload\BoardDirectory\board-by-ziaul\Index.html' because it is being used by another process.
+   at CrowdBoardsApp.BoardPage.ReadFile(String path) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 81
+   at CrowdBoardsApp.BoardPage.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 18
+2/28/2013 3:25:17 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 115
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/28/2013 5:57:36 PM
+System.ArgumentException: CommenterUserID is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Board.LoadBoardInfo() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 137
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 33
+2/28/2013 5:57:54 PM
+System.ArgumentException: CommenterUserID is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Board.LoadBoardInfo() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 137
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 33
+2/28/2013 5:59:20 PM
+System.ArgumentException: CommenterUserID is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Board.LoadBoardInfo() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 137
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 33
+2/28/2013 6:38:22 PM
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Area1'.
+Could not use view or function 'vBoardDetail' because of binding errors.
+   at CrowdBoardsApp.BoardDetails.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 143
+   at CrowdBoardsApp.BoardDetails.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 31
+ClientConnectionId:8a5bc004-4511-43fc-8bfe-79389c14c587
+2/28/2013 6:39:00 PM
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Area1'.
+Could not use view or function 'vBoardDetail' because of binding errors.
+   at CrowdBoardsApp.BoardDetails.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 143
+   at CrowdBoardsApp.BoardDetails.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 31
+ClientConnectionId:8a5bc004-4511-43fc-8bfe-79389c14c587
+2/28/2013 6:40:27 PM
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Area1'.
+Could not use view or function 'vBoardDetail' because of binding errors.
+   at CrowdBoardsApp.BoardDetails.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 143
+   at CrowdBoardsApp.BoardDetails.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 31
+ClientConnectionId:8a5bc004-4511-43fc-8bfe-79389c14c587

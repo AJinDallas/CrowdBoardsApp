@@ -1,0 +1,1538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{0CDDC3D5-BE7A-4846-88AC-F950BFE35486}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CrowdBoardsApp</RootNamespace>
+    <AssemblyName>CrowdBoardsApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CrowdBoardsApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CrowdBoardsApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASPSnippets.FaceBookAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ASPSnippets.FaceBookAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="ASPSnippets.GoogleAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ASPSnippets.GoogleAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="ASPSnippets.TwitterAPI, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ASPSnippets.TwitterAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Apps, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e6feebfe441b89cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Google.GData.Apps.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Client, Version=2.2.0.0, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Contacts, Version=2.2.0.0, Culture=neutral, PublicKeyToken=7e065189dd4b982f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Google.GData.Contacts.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="LinkedIn.NET">
+      <HintPath>..\packages\LinkedIn.NET.1.0.0.1\lib\net40-client\LinkedIn.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="LinkedInLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\LinkedInLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqToTwitter, Version=2.1.11.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\LinqToTwitter.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqToTwitterPcl">
+      <HintPath>..\packages\linqtotwitter.3.0.1-beta3\lib\LinqToTwitterPcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OAuth.Net.Common, Version=0.7.1.0, Culture=neutral, PublicKeyToken=32209861c86e8a0d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\OAuth.Net.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="OAuth.Net.Components, Version=0.7.1.0, Culture=neutral, PublicKeyToken=32209861c86e8a0d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\OAuth.Net.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="OAuth.Net.Consumer, Version=0.7.1.0, Culture=neutral, PublicKeyToken=32209861c86e8a0d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\OAuth.Net.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="Stripe.net">
+      <HintPath>bin\Stripe.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.7\lib\net40\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net40\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net40\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.7\lib\net40\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.7\lib\net40\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.Design, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2010.3.1215.20, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitterLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\TwitterLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WePaySDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\WePaySDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\ContactMe.aspx" />
+    <Content Include="Account\Stripe.aspx" />
+    <Content Include="Account\Wepay.aspx" />
+    <Content Include="Admin\Areas.aspx" />
+    <Content Include="Admin\Boards.aspx" />
+    <Content Include="Admin\Districts.aspx" />
+    <Content Include="Admin\AllImages.aspx" />
+    <Content Include="Admin\IntrestList.aspx" />
+    <Content Include="Admin\InvestmentTypes.aspx" />
+    <Content Include="Admin\Posts.aspx" />
+    <Content Include="Admin\ReferralUsers.aspx" />
+    <Content Include="Admin\Users.aspx" />
+    <Content Include="bin\ASPSnippets.FaceBookAPI.dll" />
+    <Content Include="bin\ASPSnippets.GoogleAPI.dll" />
+    <Content Include="bin\ASPSnippets.TwitterAPI.dll" />
+    <Content Include="bin\Facebook.dll" />
+    <Content Include="bin\Google.GData.Apps.dll" />
+    <Content Include="bin\Google.GData.Client.dll" />
+    <Content Include="bin\Google.GData.Contacts.dll" />
+    <Content Include="bin\Google.GData.Extensions.dll" />
+    <Content Include="bin\LinqToTwitter.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\OAuth.Net.Common.dll" />
+    <Content Include="bin\OAuth.Net.Components.dll" />
+    <Content Include="bin\OAuth.Net.Consumer.dll" />
+    <Content Include="bin\Stripe.net.dll" />
+    <Content Include="bin\Stripe.net.pdb" />
+    <Content Include="bin\Telerik.Web.Design.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Web.UI.XML" />
+    <Content Include="bin\WePaySDK.dll" />
+    <Content Include="bin\YahooLibrary.dll" />
+    <Content Include="bin\YahooLibrary.pdb" />
+    <Content Include="Board.aspx" />
+    <Content Include="BoarderLineup.aspx" />
+    <Content Include="BoarderRequests.aspx" />
+    <Content Include="compare.jpg" />
+    <Content Include="CrowdNews.aspx" />
+    <Content Include="email.html" />
+    <Content Include="GenericErrorPage.html" />
+    <Content Include="Global.asax" />
+    <Content Include="HomeTest.aspx" />
+    <Content Include="Images\btncross.jpg" />
+    <Content Include="Images\btncross.png" />
+    <Content Include="Images\images\banner.png" />
+    <Content Include="Images\images\banner2.jpg" />
+    <Content Include="Images\images\banner3.jpg" />
+    <Content Include="Images\images\bannernobg.jpg" />
+    <Content Include="Images\images\facebookicon.png" />
+    <Content Include="Images\images\googleicon.png" />
+    <Content Include="Images\images\linkedinicon.png" />
+    <Content Include="Images\images\twittericon.png" />
+    <Content Include="Images\Playbutton_red.png" />
+    <Content Include="Images\user_m.jpg" />
+    <Content Include="index.html" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="CrowdboardCommand.aspx" />
+    <Content Include="Images\712.GIF" />
+    <Content Include="Images\AddDistrcitOrArea.png" />
+    <Content Include="Images\loadingNew.gif" />
+    <Content Include="Images\loadingNew.png" />
+    <Content Include="Images\loading_332.gif" />
+    <Content Include="Images\notificationBubble.png" />
+    <Content Include="Images\pageloader.gif" />
+    <Content Include="Images\pendingRequest.png" />
+    <Content Include="Images\PlayIcon.png" />
+    <Content Include="Images\ruSprite.png" />
+    <Content Include="Images\saveImage.jpg" />
+    <Content Include="Images\unreadMessage.png" />
+    <Content Include="InvestSignup.aspx" />
+    <Content Include="js\wideoembed.js" />
+    <Content Include="loading.gif" />
+    <Content Include="MoreInfo\about.html" />
+    <Content Include="MoreInfo\crowdfundinggoessocial.html" />
+    <Content Include="MoreInfo\howdoesyourprofilelook.html" />
+    <Content Include="MoreInfo\howitworks.html" />
+    <Content Include="MoreInfo\industrycomparison.html" />
+    <Content Include="MoreInfo\quotes.html" />
+    <Content Include="MoreInfo\youareacrowdboarder.html" />
+    <Content Include="Notifications.aspx" />
+    <Content Include="POPTH_hUTgPZ5Ty4PnqD3L_gTD7uUFTyAQ6oMu9t4A--.html" />
+    <Content Include="packages.config" />
+    <Content Include="Popup\PostDetails.aspx" />
+    <Content Include="rwGoogle.aspx" />
+    <Content Include="rwWatch.aspx" />
+    <Content Include="Images\1379101373_pencil.png" />
+    <Content Include="Images\blankBoardImage.png" />
+    <Content Include="rwAddExtra.aspx" />
+    <Content Include="Images\crowdfundingBody.png" />
+    <Content Include="Images\crowdFundingheader.png" />
+    <Content Include="Images\linupBody.png" />
+    <Content Include="Images\linupHeader.png" />
+    <Content Include="Images\team_facebook_icon.png" />
+    <Content Include="Images\team_linkedin_icon.png" />
+    <Content Include="Images\team_twitter_icon.png" />
+    <Content Include="Images\thermometerSmall.png" />
+    <Content Include="scrollPage.aspx" />
+    <Content Include="sendMail.aspx" />
+    <Content Include="styles\jquery.min.js" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\menu1.png" />
+    <Content Include="styles\nav-icon.png" />
+    <Content Include="styles\normalize.css" />
+    <Content Include="styles\style.css" />
+    <Content Include="Telerik.Web.UI.DialogHandler.aspx" />
+    <Content Include="Terms.aspx" />
+    <Content Include="FAQ.aspx" />
+    <Content Include="Images\WhatIsheader.png" />
+    <Content Include="Images\whatIsMain.png" />
+    <Content Include="rwLogin.aspx" />
+    <Content Include="Images\arrowNextHome.png" />
+    <Content Include="Images\arrowPrevioustHome.png" />
+    <Content Include="Images\arrowUp.png" />
+    <Content Include="Images\cornerNew.png" />
+    <Content Include="Images\default_middle1.png" />
+    <Content Include="Images\detailHead.png" />
+    <Content Include="Images\fb_share.jpg" />
+    <Content Include="Images\twitter_share.jpg" />
+    <Content Include="js\masonry.pkgd.js" />
+    <Content Include="js\masonry.pkgd.min.js" />
+    <Content Include="rwBoost.aspx" />
+    <Content Include="Images\blankUserImage.jpg" />
+    <Content Include="Images\playHome.png" />
+    <Content Include="rwComment.aspx" />
+    <Content Include="CrowdBoardManagement.aspx" />
+    <Content Include="EmbedPage.aspx" />
+    <Content Include="Images\arrowDownHome.png" />
+    <Content Include="Images\arrowNextCM.png" />
+    <Content Include="Images\nextInsiderNews.png" />
+    <Content Include="Images\notification.jpg" />
+    <Content Include="Images\previousInsiderNews.png" />
+    <Content Include="InsiderDetails.aspx" />
+    <Content Include="InsiderNews.aspx" />
+    <Content Include="rwGmailInvite.aspx" />
+    <Content Include="rwYahooInvite.aspx" />
+    <Content Include="ExportText.aspx" />
+    <Content Include="ForgetPassword.aspx" />
+    <Content Include="Account\LinkedInRegister.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\PaypalSuccess.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\Success.aspx" />
+    <Content Include="Account\TwitterRegister.aspx" />
+    <Content Include="Account\Verification.aspx" />
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\AssignRole.aspx" />
+    <Content Include="Admin\rwAssignRole.aspx" />
+    <Content Include="bin\LinkedInLibrary.dll" />
+    <Content Include="bin\System.Web.Extensions.Design.dll" />
+    <Content Include="bin\System.Web.Extensions.dll" />
+    <Content Include="bin\TwitterLibrary.dll" />
+    <Content Include="Board-Old.aspx" />
+    <Content Include="BoardDetails-Old.aspx" />
+    <Content Include="BoardPage.aspx" />
+    <Content Include="Confirm.aspx" />
+    <Content Include="BoardOld2.aspx" />
+    <Content Include="Images\addBoarderHome.png" />
+    <Content Include="Images\addLevel.png" />
+    <Content Include="Images\arrowUpHome.png" />
+    <Content Include="Images\cancelImg.png" />
+    <Content Include="Images\corner.png" />
+    <Content Include="Images\defaultBackground.jpg" />
+    <Content Include="Images\default_bottom.png" />
+    <Content Include="Images\default_middle.png" />
+    <Content Include="Images\default_send.png" />
+    <Content Include="Images\default_signIn.png" />
+    <Content Include="Images\default_signUp.png" />
+    <Content Include="Images\default_top.png" />
+    <Content Include="Images\delete.jpg" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\facebookIcon.png" />
+    <Content Include="Images\facebookInviteCC.png" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\forget_Login.png" />
+    <Content Include="Images\forward.jpg" />
+    <Content Include="Images\forward.png" />
+    <Content Include="Images\forwardImg.jpg" />
+    <Content Include="Images\gmailInviteCC.png" />
+    <Content Include="Images\help.jpg" />
+    <Content Include="Images\Help.png" />
+    <Content Include="Images\linkedInInviteCC.png" />
+    <Content Include="Images\messageMe.png" />
+    <Content Include="Images\messageOther.png" />
+    <Content Include="Images\mySpaceInviteCC.png" />
+    <Content Include="Images\newMessageBtn.png" />
+    <Content Include="Images\newMessageBubble.png" />
+    <Content Include="Images\nextBoard.png" />
+    <Content Include="Images\previousBoard.png" />
+    <Content Include="Images\removeLevel.png" />
+    <Content Include="Images\replayBtn.png" />
+    <Content Include="Images\twitterIcon.png" />
+    <Content Include="Images\twitterInviteCC.png" />
+    <Content Include="Images\yahooInviteCC.png" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="rwFacebookUser.aspx" />
+    <Content Include="rwAddCrowdBoardTeam.aspx" />
+    <Content Include="rwPostFromBoard.aspx" />
+    <Content Include="Messages.aspx" />
+    <Content Include="Css\jquery-ui-1.10.2.custom.css" />
+    <Content Include="Images\7.png" />
+    <Content Include="Images\addImage.png" />
+    <Content Include="Images\boardEdit.png" />
+    <Content Include="Images\boardgraph.png" />
+    <Content Include="Images\BoardInvestor.png" />
+    <Content Include="Images\BoardPerformance.png" />
+    <Content Include="Images\btnNext.png" />
+    <Content Include="Images\btnPrevious.png" />
+    <Content Include="Images\Cancel.png" />
+    <Content Include="Images\cbInvite.png" />
+    <Content Include="Images\Changepasswod.png" />
+    <Content Include="Images\Crowdboards.png" />
+    <Content Include="Images\D1.png" />
+    <Content Include="Images\D2.png" />
+    <Content Include="Images\D3.png" />
+    <Content Include="Images\D4.png" />
+    <Content Include="Images\D5.png" />
+    <Content Include="Images\D6.png" />
+    <Content Include="Images\Default.png" />
+    <Content Include="Images\districtDefault.png" />
+    <Content Include="Images\down_arrow.png" />
+    <Content Include="Images\fbInvite.png" />
+    <Content Include="Images\googleInvite.png" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\Head.png" />
+    <Content Include="Images\HeadStep1.png" />
+    <Content Include="Images\HeadStep3.png" />
+    <Content Include="Images\HeadStep4.png" />
+    <Content Include="Images\HeadStep5.png" />
+    <Content Include="Images\HeadStepSecond.png" />
+    <Content Include="Images\IMG_bdtitle.png" />
+    <Content Include="Images\IMG_bdtlhead.png" />
+    <Content Include="Images\IMG_botom2.png" />
+    <Content Include="Images\6.png" />
+    <Content Include="Images\Img_homebotom.png" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\IMG_Login.png" />
+    <Content Include="Images\IMG_logo2.png" />
+    <Content Include="Images\1.png" />
+    <Content Include="Images\IMG_Register5.png" />
+    <Content Include="Images\IMG_Searchhead.png" />
+    <Content Include="Images\IMG_SerachDefaul.png" />
+    <Content Include="Images\IMG_Signfacebook2.png" />
+    <Content Include="Images\IMG_SigninTwitter2.png" />
+    <Content Include="Images\IMG_Signup2.png" />
+    <Content Include="Images\IMG_Singinlinkdin2.png" />
+    <Content Include="Images\5.png" />
+    <Content Include="Images\IMG_Star.png" />
+    <Content Include="Images\IMG_Star2.png" />
+    <Content Include="Images\IMG_Top2.png" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\levelpic1.png" />
+    <Content Include="Images\levelpic2.png" />
+    <Content Include="Images\levelpic3.png" />
+    <Content Include="Images\linkedInInvite.png" />
+    <Content Include="Images\pic1.png" />
+    <Content Include="Images\pic2.png" />
+    <Content Include="Images\pic3.png" />
+    <Content Include="Images\pic4.png" />
+    <Content Include="Images\pic5.png" />
+    <Content Include="Images\pic6.png" />
+    <Content Include="Images\pic7.png" />
+    <Content Include="Images\pic8.png" />
+    <Content Include="Images\pic9.png" />
+    <Content Include="Images\picInvestBody.png" />
+    <Content Include="Images\step3Body.png" />
+    <Content Include="Images\picInvestHeader.png" />
+    <Content Include="Images\step1Body.png" />
+    <Content Include="Images\step1Header.png" />
+    <Content Include="Images\step2Body.png" />
+    <Content Include="Images\step2Header.png" />
+    <Content Include="Images\step4header.png" />
+    <Content Include="Images\stepFourBody.png" />
+    <Content Include="Images\twitterInvite.png" />
+    <Content Include="Images\up_arrow.png" />
+    <Content Include="Images\webInvite.png" />
+    <Content Include="Images\yahooInvite.png" />
+    <Content Include="BoardFolio.aspx" />
+    <Content Include="js\jquery-1.4.1-vsdoc.js" />
+    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-ui-1.10.2.custom.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="MyProfile-Old.aspx" />
+    <Content Include="Css\Register.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Home-Old.aspx" />
+    <Content Include="Images\createBoard.png" />
+    <Content Include="Images\Crowdboarders.jpg" />
+    <Content Include="Images\image1.png" />
+    <Content Include="Images\Log in.png" />
+    <Content Include="Images\Save.png" />
+    <Content Include="Images\sign-up-form.jpg" />
+    <Content Include="Images\signup.png" />
+    <Content Include="Images\slide1.jpg" />
+    <Content Include="BoardDetails.aspx" />
+    <Content Include="CreateCrowdboard.aspx" />
+    <Content Include="rwValidateEmail.aspx" />
+    <Content Include="rwWrongPassword.aspx" />
+    <Content Include="SiteSearch.aspx" />
+    <Content Include="test.htm" />
+    <Content Include="uc_Notifications.ascx" />
+    <Content Include="uc_PendingRequests.ascx" />
+    <Content Include="uc_UnreadMessages.ascx" />
+    <Content Include="UpdateBoarders.aspx" />
+    <Content Include="Upload\BoardDirectory\new-bo\Index.html" />
+    <Content Include="Upload\BoardDirectory\next-board\Index.html" />
+    <Content Include="Search-Old.aspx" />
+    <Content Include="Images\toplogo.jpg" />
+    <Content Include="Invest.aspx" />
+    <Content Include="js\DateFormat.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Messages-Old.aspx" />
+    <Content Include="Upload\BoardDirectory\new-board\Index.html" />
+    <Content Include="MyProfile.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="rwSaveDirectoryName.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Css\Style.css" />
+    <Content Include="thumbnail\new-board.jpg" />
+    <Content Include="thumbnail\noimage.jpg" />
+    <Content Include="thumbnail\ziaul.jpg" />
+    <Content Include="thumbs\new-board.jpg" />
+    <Content Include="thumbs\noimage.jpg" />
+    <Content Include="thumbs\write-and-disk1.jpg" />
+    <Content Include="thumbs\ziaul.jpg" />
+    <Content Include="TopMenu.ascx" />
+    <Content Include="Upload\AreasPics\1.jpg" />
+    <Content Include="Upload\AreasPics\2.jpg" />
+    <Content Include="Upload\AreasPics\3.jpg" />
+    <Content Include="Upload\AreasPics\4.jpg" />
+    <Content Include="Upload\BackgroundPics\owner1.jpg" />
+    <Content Include="Upload\BackgroundPics\shoaib.jpg" />
+    <Content Include="Upload\BackgroundPics\testuser1.jpg" />
+    <Content Include="Upload\BackgroundPics\testuser2.jpg" />
+    <Content Include="Upload\BackgroundPics\ziaul.jpg" />
+    <Content Include="Upload\DistrictPics\1.jpg" />
+    <Content Include="Upload\DistrictPics\10.jpg" />
+    <Content Include="Upload\DistrictPics\12.jpg" />
+    <Content Include="Upload\DistrictPics\2.jpg" />
+    <Content Include="Upload\DistrictPics\4.jpg" />
+    <Content Include="Upload\DistrictPics\9.jpg" />
+    <Content Include="Upload\MessageFiles\noimage.jpg" />
+    <Content Include="Upload\ProfilePics\noimage.jpg" />
+    <Content Include="Upload\ProfilePics\owner1.jpg" />
+    <Content Include="Upload\ProfilePics\testuser1.jpg" />
+    <Content Include="Upload\ProfilePics\testuser2.jpg" />
+    <Content Include="Upload\ProfilePics\ziaul.jpg" />
+    <Content Include="video.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Upload\BoardDirectory\ziek\Index.html" />
+    <Content Include="WebContent\images\art.jpeg" />
+    <Content Include="WebContent\images\backgrounds\shattered\readme.txt" />
+    <Content Include="WebContent\images\backgrounds\shattered\shattered.png" />
+    <Content Include="WebContent\images\backgrounds\shattered\shattered_%402X.png" />
+    <Content Include="WebContent\images\balance.png" />
+    <Content Include="WebContent\images\boost.png" />
+    <Content Include="WebContent\images\boostselect.png" />
+    <Content Include="WebContent\images\causes.jpg" />
+    <Content Include="WebContent\images\cogs.png" />
+    <Content Include="WebContent\images\comment.png" />
+    <Content Include="WebContent\images\commentselect.png" />
+    <Content Include="WebContent\images\crowd.png" />
+    <Content Include="WebContent\images\crowdboarders.png" />
+    <Content Include="WebContent\images\crowdboardpreview.png" />
+    <Content Include="WebContent\images\crowdboardvideopreview.png" />
+    <Content Include="WebContent\images\dkpicture.png" />
+    <Content Include="WebContent\images\email.png" />
+    <Content Include="WebContent\images\emphasis.png" />
+    <Content Include="WebContent\images\fha.png" />
+    <Content Include="WebContent\images\gaming.jpeg" />
+    <Content Include="WebContent\images\Georgie.jpg" />
+    <Content Include="WebContent\images\Georgie2.jpg" />
+    <Content Include="WebContent\images\graphics.png" />
+    <Content Include="WebContent\images\green.jpeg" />
+    <Content Include="WebContent\images\hierarchy.png" />
+    <Content Include="WebContent\images\menu.png" />
+    <Content Include="WebContent\images\play.png" />
+    <Content Include="WebContent\images\playbutton.png" />
+    <Content Include="WebContent\images\profilebanner.jpeg" />
+    <Content Include="WebContent\images\recommend.png" />
+    <Content Include="WebContent\images\recommendselect.png" />
+    <Content Include="WebContent\images\search-dark.png" />
+    <Content Include="WebContent\images\search-white.png" />
+    <Content Include="WebContent\images\selfportrait.png" />
+    <Content Include="WebContent\images\start-up.png" />
+    <Content Include="WebContent\images\strategy.png" />
+    <Content Include="WebContent\images\tech.jpeg" />
+    <Content Include="WebContent\images\theatre.jpeg" />
+    <Content Include="WebContent\images\unity.png" />
+    <Content Include="WebContent\images\view.png" />
+    <Content Include="WebContent\images\watchselect.png" />
+    <Content Include="WebContent\images\watchwbg.png" />
+    <Content Include="WebContent\jQuery\jquery.js" />
+    <Content Include="WebContent\scripts\main.js" />
+    <Content Include="WebContent\scripts\navbar.js" />
+    <Content Include="WebContent\styles\DistrictsAreas.css" />
+    <Content Include="WebContent\styles\main.css" />
+    <Content Include="WebContent\Theme\images\a1.png" />
+    <Content Include="WebContent\Theme\images\a2.png" />
+    <Content Include="WebContent\Theme\images\art.jpeg" />
+    <Content Include="WebContent\Theme\images\backgrounds\shattered\readme.txt" />
+    <Content Include="WebContent\Theme\images\backgrounds\shattered\shattered.png" />
+    <Content Include="WebContent\Theme\images\backgrounds\shattered\shattered_%402X.png" />
+    <Content Include="WebContent\Theme\images\backImage.png" />
+    <Content Include="WebContent\Theme\images\balance.png" />
+    <Content Include="WebContent\Theme\images\balanced.jpg" />
+    <Content Include="WebContent\Theme\images\boost.png" />
+    <Content Include="WebContent\Theme\images\boostselect.png" />
+    <Content Include="WebContent\Theme\images\causes.jpg" />
+    <Content Include="WebContent\Theme\images\cb.png" />
+    <Content Include="WebContent\Theme\images\cb2.png" />
+    <Content Include="WebContent\Theme\images\cb3.png" />
+    <Content Include="WebContent\Theme\images\cb4.png" />
+    <Content Include="WebContent\Theme\images\cb5.png" />
+    <Content Include="WebContent\Theme\images\cb6.png" />
+    <Content Include="WebContent\Theme\images\close.png" />
+    <Content Include="WebContent\Theme\images\closebox.png" />
+    <Content Include="WebContent\Theme\images\cogs.png" />
+    <Content Include="WebContent\Theme\images\comment.png" />
+    <Content Include="WebContent\Theme\images\commentselect.png" />
+    <Content Include="WebContent\Theme\images\creditcardlogos.jpg" />
+    <Content Include="WebContent\Theme\images\crowd.png" />
+    <Content Include="WebContent\Theme\images\crowdboardcollage.jpg" />
+    <Content Include="WebContent\Theme\images\crowdboarders.png" />
+    <Content Include="WebContent\Theme\images\crowdboardersbanner.jpg" />
+    <Content Include="WebContent\Theme\images\crowdboardersbanner.png" />
+    <Content Include="WebContent\Theme\images\crowdboardpreview.png" />
+    <Content Include="WebContent\Theme\images\crowdboardvideopreview.png" />
+    <Content Include="WebContent\Theme\images\email.png" />
+    <Content Include="WebContent\Theme\images\emphasis.png" />
+    <Content Include="WebContent\Theme\images\facebookicon.png" />
+    <Content Include="WebContent\Theme\images\fbsignin.png" />
+    <Content Include="WebContent\Theme\images\fha.png" />
+    <Content Include="WebContent\Theme\images\forward.png" />
+    <Content Include="WebContent\Theme\images\gaming.jpeg" />
+    <Content Include="WebContent\Theme\images\Georgie.jpg" />
+    <Content Include="WebContent\Theme\images\Georgie2.jpg" />
+    <Content Include="WebContent\Theme\images\googleicon.png" />
+    <Content Include="WebContent\Theme\images\graphics.png" />
+    <Content Include="WebContent\Theme\images\green.jpeg" />
+    <Content Include="WebContent\Theme\images\h1.png" />
+    <Content Include="WebContent\Theme\images\h2.png" />
+    <Content Include="WebContent\Theme\images\h3.png" />
+    <Content Include="WebContent\Theme\images\h4.png" />
+    <Content Include="WebContent\Theme\images\h5.png" />
+    <Content Include="WebContent\Theme\images\hierarchy.png" />
+    <Content Include="WebContent\Theme\images\homepage.jpg" />
+    <Content Include="WebContent\Theme\images\hotmailicon.png" />
+    <Content Include="WebContent\Theme\images\i1.png" />
+    <Content Include="WebContent\Theme\images\iam1.jpg" />
+    <Content Include="WebContent\Theme\images\iam10.jpg" />
+    <Content Include="WebContent\Theme\images\iam11.jpg" />
+    <Content Include="WebContent\Theme\images\iam12.jpg" />
+    <Content Include="WebContent\Theme\images\iam13.jpg" />
+    <Content Include="WebContent\Theme\images\iam14.jpg" />
+    <Content Include="WebContent\Theme\images\iam15.jpg" />
+    <Content Include="WebContent\Theme\images\iam16.jpg" />
+    <Content Include="WebContent\Theme\images\iam17.jpg" />
+    <Content Include="WebContent\Theme\images\iam18.jpg" />
+    <Content Include="WebContent\Theme\images\iam19.jpg" />
+    <Content Include="WebContent\Theme\images\iam2.jpg" />
+    <Content Include="WebContent\Theme\images\iam20.jpg" />
+    <Content Include="WebContent\Theme\images\iam3.jpg" />
+    <Content Include="WebContent\Theme\images\iam4.jpg" />
+    <Content Include="WebContent\Theme\images\iam5.jpg" />
+    <Content Include="WebContent\Theme\images\iam6.jpg" />
+    <Content Include="WebContent\Theme\images\iam7.jpg" />
+    <Content Include="WebContent\Theme\images\iam8.jpg" />
+    <Content Include="WebContent\Theme\images\iam9.jpg" />
+    <Content Include="WebContent\Theme\images\linkedinicon.png" />
+    <Content Include="WebContent\Theme\images\lsignin.png" />
+    <Content Include="WebContent\Theme\images\menu.png" />
+    <Content Include="WebContent\Theme\images\p1.png" />
+    <Content Include="WebContent\Theme\images\p2.png" />
+    <Content Include="WebContent\Theme\images\p3.png" />
+    <Content Include="WebContent\Theme\images\play.png" />
+    <Content Include="WebContent\Theme\images\playbutton.png" />
+    <Content Include="WebContent\Theme\images\profilebanner.jpeg" />
+    <Content Include="WebContent\Theme\images\recommend.png" />
+    <Content Include="WebContent\Theme\images\recommendselect.png" />
+    <Content Include="WebContent\Theme\images\s1.png" />
+    <Content Include="WebContent\Theme\images\s2.png" />
+    <Content Include="WebContent\Theme\images\s3.png" />
+    <Content Include="WebContent\Theme\images\s4.png" />
+    <Content Include="WebContent\Theme\images\s5.png" />
+    <Content Include="WebContent\Theme\images\s6.png" />
+    <Content Include="WebContent\Theme\images\s7.png" />
+    <Content Include="WebContent\Theme\images\search-dark.png" />
+    <Content Include="WebContent\Theme\images\search-white.png" />
+    <Content Include="WebContent\Theme\images\selfportrait.png" />
+    <Content Include="WebContent\Theme\images\sign in.jpg" />
+    <Content Include="WebContent\Theme\images\start-up.png" />
+    <Content Include="WebContent\Theme\images\strategy.png" />
+    <Content Include="WebContent\Theme\images\stripe-logo.png" />
+    <Content Include="WebContent\Theme\images\tech.jpeg" />
+    <Content Include="WebContent\Theme\images\theatre.jpeg" />
+    <Content Include="WebContent\Theme\images\tlogin.png" />
+    <Content Include="WebContent\Theme\images\twittericon.png" />
+    <Content Include="WebContent\Theme\images\unity.png" />
+    <Content Include="WebContent\Theme\images\view.png" />
+    <Content Include="WebContent\Theme\images\watchselect.png" />
+    <Content Include="WebContent\Theme\images\watchwbg.png" />
+    <Content Include="WebContent\Theme\images\yahooicon.png" />
+    <Content Include="WebContent\Theme\images\you.png" />
+    <Content Include="WebContent\Theme\jQuery\jquery.js" />
+    <Content Include="WebContent\Theme\scripts\crowdboard.js" />
+    <Content Include="WebContent\Theme\scripts\main.js" />
+    <Content Include="WebContent\Theme\scripts\messages.js" />
+    <Content Include="WebContent\Theme\scripts\navbar.js" />
+    <Content Include="WebContent\Theme\scripts\template.js" />
+    <Content Include="WebContent\Theme\styles\boarderslineup.css" />
+    <Content Include="WebContent\Theme\styles\boardfolio.css" />
+    <Content Include="WebContent\Theme\styles\createcrowdboard.css" />
+    <Content Include="WebContent\Theme\styles\crowdboard.css" />
+    <Content Include="WebContent\Theme\styles\crowdnews.css" />
+    <Content Include="WebContent\Theme\styles\DistrictsAreas.css" />
+    <Content Include="WebContent\Theme\styles\editmanageupdate.css" />
+    <Content Include="WebContent\Theme\styles\editprofile.css" />
+    <Content Include="WebContent\Theme\styles\incrowdword.css" />
+    <Content Include="WebContent\Theme\styles\insider.css" />
+    <Content Include="WebContent\Theme\styles\investmentlevel.css" />
+    <Content Include="WebContent\Theme\styles\investsignup.css" />
+    <Content Include="WebContent\Theme\styles\login.css" />
+    <Content Include="WebContent\Theme\styles\main.css" />
+    <Content Include="WebContent\Theme\styles\messages.css" />
+    <Content Include="WebContent\Theme\styles\myconsole.css" />
+    <Content Include="WebContent\Theme\styles\mycrowdboardsproper.css" />
+    <Content Include="WebContent\Theme\styles\newsviewfull.css" />
+    <Content Include="WebContent\Theme\styles\payment.css" />
+    <Content Include="WebContent\Theme\styles\popup.css" />
+    <Content Include="WebContent\Theme\styles\profile.css" />
+    <Content Include="WebContent\Theme\styles\searchresults.css" />
+    <Content Include="WebContent\Theme\styles\template.css" />
+    <Content Include="WebService\WebService.asmx" />
+    <Content Include="WhatIs.aspx" />
+    <Content Include="whatis.htm" />
+    <Content Include="Wordonthestreet.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ContactMe.aspx.designer.vb">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ContactMe.aspx.vb">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Stripe.aspx.designer.vb">
+      <DependentUpon>Stripe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Stripe.aspx.vb">
+      <DependentUpon>Stripe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Wepay.aspx.designer.vb">
+      <DependentUpon>Wepay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Wepay.aspx.vb">
+      <DependentUpon>Wepay.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Areas.aspx.designer.vb">
+      <DependentUpon>Areas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Areas.aspx.vb">
+      <DependentUpon>Areas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Boards.aspx.designer.vb">
+      <DependentUpon>Boards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Boards.aspx.vb">
+      <DependentUpon>Boards.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Districts.aspx.designer.vb">
+      <DependentUpon>Districts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Districts.aspx.vb">
+      <DependentUpon>Districts.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AllImages.aspx.designer.vb">
+      <DependentUpon>AllImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AllImages.aspx.vb">
+      <DependentUpon>AllImages.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\IntrestList.aspx.designer.vb">
+      <DependentUpon>IntrestList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\IntrestList.aspx.vb">
+      <DependentUpon>IntrestList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\InvestmentTypes.aspx.designer.vb">
+      <DependentUpon>InvestmentTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\InvestmentTypes.aspx.vb">
+      <DependentUpon>InvestmentTypes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Posts.aspx.designer.vb">
+      <DependentUpon>Posts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Posts.aspx.vb">
+      <DependentUpon>Posts.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ReferralUsers.aspx.designer.vb">
+      <DependentUpon>ReferralUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ReferralUsers.aspx.vb">
+      <DependentUpon>ReferralUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.designer.vb">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.vb">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Board.aspx.designer.vb">
+      <DependentUpon>Board.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Board.aspx.vb">
+      <DependentUpon>Board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoarderLineup.aspx.designer.vb">
+      <DependentUpon>BoarderLineup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoarderLineup.aspx.vb">
+      <DependentUpon>BoarderLineup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoarderRequests.aspx.designer.vb">
+      <DependentUpon>BoarderRequests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoarderRequests.aspx.vb">
+      <DependentUpon>BoarderRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.vb">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.vb">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CrowdNews.aspx.designer.vb">
+      <DependentUpon>CrowdNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrowdNews.aspx.vb">
+      <DependentUpon>CrowdNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HomeTest.aspx.designer.vb">
+      <DependentUpon>HomeTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeTest.aspx.vb">
+      <DependentUpon>HomeTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrowdboardCommand.aspx.designer.vb">
+      <DependentUpon>CrowdboardCommand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrowdboardCommand.aspx.vb">
+      <DependentUpon>CrowdboardCommand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InvestSignup.aspx.designer.vb">
+      <DependentUpon>InvestSignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InvestSignup.aspx.vb">
+      <DependentUpon>InvestSignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\SiteMaster.Master.designer.vb">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\SiteMaster.Master.vb">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notifications.aspx.designer.vb">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications.aspx.vb">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Popup\PostDetails.aspx.designer.vb">
+      <DependentUpon>PostDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PostDetails.aspx.vb">
+      <DependentUpon>PostDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="rwGoogle.aspx.designer.vb">
+      <DependentUpon>rwGoogle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwGoogle.aspx.vb">
+      <DependentUpon>rwGoogle.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="rwWatch.aspx.designer.vb">
+      <DependentUpon>rwWatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwWatch.aspx.vb">
+      <DependentUpon>rwWatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global_Code\BalancedPayments.vb" />
+    <Compile Include="rwAddExtra.aspx.designer.vb">
+      <DependentUpon>rwAddExtra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwAddExtra.aspx.vb">
+      <DependentUpon>rwAddExtra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="scrollPage.aspx.designer.vb">
+      <DependentUpon>scrollPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="scrollPage.aspx.vb">
+      <DependentUpon>scrollPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sendMail.aspx.vb">
+      <DependentUpon>sendMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terms.aspx.designer.vb">
+      <DependentUpon>Terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terms.aspx.vb">
+      <DependentUpon>Terms.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.vb">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.vb">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="rwLogin.aspx.designer.vb">
+      <DependentUpon>rwLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwLogin.aspx.vb">
+      <DependentUpon>rwLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwBoost.aspx.designer.vb">
+      <DependentUpon>rwBoost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwBoost.aspx.vb">
+      <DependentUpon>rwBoost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwComment.aspx.designer.vb">
+      <DependentUpon>rwComment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwComment.aspx.vb">
+      <DependentUpon>rwComment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrowdBoardManagement.aspx.designer.vb">
+      <DependentUpon>CrowdBoardManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrowdBoardManagement.aspx.vb">
+      <DependentUpon>CrowdBoardManagement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EmbedPage.aspx.designer.vb">
+      <DependentUpon>EmbedPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmbedPage.aspx.vb">
+      <DependentUpon>EmbedPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InsiderDetails.aspx.designer.vb">
+      <DependentUpon>InsiderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsiderDetails.aspx.vb">
+      <DependentUpon>InsiderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InsiderNews.aspx.designer.vb">
+      <DependentUpon>InsiderNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsiderNews.aspx.vb">
+      <DependentUpon>InsiderNews.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="rwGmailInvite.aspx.designer.vb">
+      <DependentUpon>rwGmailInvite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwGmailInvite.aspx.vb">
+      <DependentUpon>rwGmailInvite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwYahooInvite.aspx.designer.vb">
+      <DependentUpon>rwYahooInvite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwYahooInvite.aspx.vb">
+      <DependentUpon>rwYahooInvite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomHandler.ashx.vb">
+      <DependentUpon>CustomHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportText.aspx.designer.vb">
+      <DependentUpon>ExportText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportText.aspx.vb">
+      <DependentUpon>ExportText.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.designer.vb">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.vb">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\LinkedInRegister.aspx.designer.vb">
+      <DependentUpon>LinkedInRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\LinkedInRegister.aspx.vb">
+      <DependentUpon>LinkedInRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PaypalSuccess.aspx.designer.vb">
+      <DependentUpon>PaypalSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\PaypalSuccess.aspx.vb">
+      <DependentUpon>PaypalSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Success.aspx.designer.vb">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Success.aspx.vb">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\TwitterRegister.aspx.designer.vb">
+      <DependentUpon>TwitterRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\TwitterRegister.aspx.vb">
+      <DependentUpon>TwitterRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Verification.aspx.designer.vb">
+      <DependentUpon>Verification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Verification.aspx.vb">
+      <DependentUpon>Verification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AssignRole.aspx.designer.vb">
+      <DependentUpon>AssignRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AssignRole.aspx.vb">
+      <DependentUpon>AssignRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\rwAssignRole.aspx.designer.vb">
+      <DependentUpon>rwAssignRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\rwAssignRole.aspx.vb">
+      <DependentUpon>rwAssignRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board-Old.aspx.designer.vb">
+      <DependentUpon>Board-Old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Board-Old.aspx.vb">
+      <DependentUpon>Board-Old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoardDetails-Old.aspx.designer.vb">
+      <DependentUpon>BoardDetails-Old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoardDetails-Old.aspx.vb">
+      <DependentUpon>BoardDetails-Old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoardPage.aspx.designer.vb">
+      <DependentUpon>BoardPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoardPage.aspx.vb">
+      <DependentUpon>BoardPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirm.aspx.designer.vb">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirm.aspx.vb">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoardOld2.aspx.designer.vb">
+      <DependentUpon>BoardOld2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoardOld2.aspx.vb">
+      <DependentUpon>BoardOld2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwFacebookUser.aspx.designer.vb">
+      <DependentUpon>rwFacebookUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwFacebookUser.aspx.vb">
+      <DependentUpon>rwFacebookUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwAddCrowdBoardTeam.aspx.designer.vb">
+      <DependentUpon>rwAddCrowdBoardTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwAddCrowdBoardTeam.aspx.vb">
+      <DependentUpon>rwAddCrowdBoardTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwPostFromBoard.aspx.designer.vb">
+      <DependentUpon>rwPostFromBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwPostFromBoard.aspx.vb">
+      <DependentUpon>rwPostFromBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messages.aspx.designer.vb">
+      <DependentUpon>Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.aspx.vb">
+      <DependentUpon>Messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoardFolio.aspx.designer.vb">
+      <DependentUpon>BoardFolio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoardFolio.aspx.vb">
+      <DependentUpon>BoardFolio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyProfile-Old.aspx.designer.vb">
+      <DependentUpon>MyProfile-Old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyProfile-Old.aspx.vb">
+      <DependentUpon>MyProfile-Old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global_Code\FacebookUser.vb" />
+    <Compile Include="Global_Code\GlobalModule.vb" />
+    <Compile Include="Home-Old.aspx.designer.vb">
+      <DependentUpon>Home-Old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home-Old.aspx.vb">
+      <DependentUpon>Home-Old.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="rwValidateEmail.aspx.designer.vb">
+      <DependentUpon>rwValidateEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwValidateEmail.aspx.vb">
+      <DependentUpon>rwValidateEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwWrongPassword.aspx.designer.vb">
+      <DependentUpon>rwWrongPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwWrongPassword.aspx.vb">
+      <DependentUpon>rwWrongPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search-Old.aspx.designer.vb">
+      <DependentUpon>Search-Old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search-Old.aspx.vb">
+      <DependentUpon>Search-Old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invest.aspx.designer.vb">
+      <DependentUpon>Invest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invest.aspx.vb">
+      <DependentUpon>Invest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messages-Old.aspx.designer.vb">
+      <DependentUpon>Messages-Old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages-Old.aspx.vb">
+      <DependentUpon>Messages-Old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyProfile.aspx.designer.vb">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyProfile.aspx.vb">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicMaster.master.designer.vb">
+      <DependentUpon>publicMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="publicMaster.master.vb">
+      <DependentUpon>publicMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rwSaveDirectoryName.aspx.designer.vb">
+      <DependentUpon>rwSaveDirectoryName.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rwSaveDirectoryName.aspx.vb">
+      <DependentUpon>rwSaveDirectoryName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoardDetails.aspx.designer.vb">
+      <DependentUpon>BoardDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BoardDetails.aspx.vb">
+      <DependentUpon>BoardDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateCrowdboard.aspx.designer.vb">
+      <DependentUpon>CreateCrowdboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateCrowdboard.aspx.vb">
+      <DependentUpon>CreateCrowdboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSearch.aspx.designer.vb">
+      <DependentUpon>SiteSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSearch.aspx.vb">
+      <DependentUpon>SiteSearch.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TopMenu.ascx.designer.vb">
+      <DependentUpon>TopMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TopMenu.ascx.vb">
+      <DependentUpon>TopMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc_Notifications.ascx.designer.vb">
+      <DependentUpon>uc_Notifications.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc_Notifications.ascx.vb">
+      <DependentUpon>uc_Notifications.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc_PendingRequests.ascx.designer.vb">
+      <DependentUpon>uc_PendingRequests.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc_PendingRequests.ascx.vb">
+      <DependentUpon>uc_PendingRequests.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uc_UnreadMessages.ascx.designer.vb">
+      <DependentUpon>uc_UnreadMessages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="uc_UnreadMessages.ascx.vb">
+      <DependentUpon>uc_UnreadMessages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateBoarders.aspx.designer.vb">
+      <DependentUpon>UpdateBoarders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBoarders.aspx.vb">
+      <DependentUpon>UpdateBoarders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebService\WebService.asmx.vb">
+      <DependentUpon>WebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WhatIs.aspx.designer.vb">
+      <DependentUpon>WhatIs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WhatIs.aspx.vb">
+      <DependentUpon>WhatIs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Wordonthestreet.aspx.designer.vb">
+      <DependentUpon>Wordonthestreet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wordonthestreet.aspx.vb">
+      <DependentUpon>Wordonthestreet.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\web.config" />
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="App_Data\RadSpell\en-US.tdf" />
+    <None Include="bin\System.Web.Extensions.Design.dll.refresh" />
+    <None Include="bin\System.Web.Extensions.dll.refresh" />
+    <Content Include="CustomHandler.ashx" />
+    <None Include="HowitWorks.pdf" />
+    <Content Include="MasterPage\Site.Master" />
+    <Content Include="MasterPage\SiteMaster.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="publicMaster.master" />
+    <None Include="vwd.webinfo" />
+    <None Include="YouareaCrowdBoarder.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ErrorLog\" />
+    <Folder Include="Images\New\Articles\" />
+    <Folder Include="Images\New\News\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Old_App_Code\" />
+    <Folder Include="Upload\BoardBackgroundPics\" />
+    <Folder Include="Upload\BoardCoverPics\" />
+    <Folder Include="Upload\BoardVideo\" />
+    <Folder Include="Upload\DeleteFiles\" />
+    <Folder Include="Upload\InvestmentTypePics\" />
+    <Folder Include="Upload\MessageFiles\Thumbnail\" />
+    <Folder Include="Upload\PossessionPics\" />
+    <Folder Include="Upload\ProfilePics\thumbnail\" />
+    <Folder Include="Upload\UserPostsFiles\" />
+    <Folder Include="Upload\UserProofDoc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stripe\Stripe.csproj">
+      <Project>{E48E9AC1-3A88-406B-82FF-166B1E3C7A48}</Project>
+      <Name>Stripe</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YahooLibrary\YahooLibrary.csproj">
+      <Project>{E419A649-086A-4777-9670-9DB594E742FE}</Project>
+      <Name>YahooLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6469</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

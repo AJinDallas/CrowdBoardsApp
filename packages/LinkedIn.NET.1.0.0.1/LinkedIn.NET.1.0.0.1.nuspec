@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>LinkedIn.NET</id>
+    <version>1.0.0.1</version>
+    <title>LinkedIn.NET</title>
+    <authors>Andrey Gruber</authors>
+    <owners>Andrey Gruber</owners>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+    <projectUrl>https://sourceforge.net/projects/linkedinnet/</projectUrl>
+    <iconUrl>https://sourceforge.net/p/linkedinnet//icon?2014-02-27%2022:21:25+00:00</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>LinkedIn.NET is a .NET library that simplifies working with LinkedIn from .NET applications. It allows to share and retrieve updates, send messages and invitations, get information about users profiles, join and leave LinkedIn groups, post comments and likes and run complicated queries via LinkedIn Search API.</description>
+    <summary>LinkedIn.NET is a .NET library for working with LinkedIn API</summary>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>GNU General Public License version 2.0 (GPLv2)</copyright>
+    <language>es-US</language>
+    <tags>LinkedIn .NET C# social</tags>
+  </metadata>
+</package>

@@ -1,0 +1,33 @@
+
+7/29/2013 2:12:46 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+7/29/2013 7:08:23 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASPSnippets.FaceBookAPI.FaceBookConnect.Authorize(String scope, String redirectUrl)
+   at CrowdBoardsApp._Default.signInFacebook_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 52
+7/29/2013 7:08:37 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASPSnippets.FaceBookAPI.FaceBookConnect.Authorize(String scope, String redirectUrl)
+   at CrowdBoardsApp._Default.signInFacebook_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 52
+7/29/2013 7:39:40 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp._Default.UpdateLastLogin(String UserName) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 105
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 25
+7/29/2013 7:40:30 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp._Default.UpdateLastLogin(String UserName) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 105
+   at CrowdBoardsApp._Default.LoginButton_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 25

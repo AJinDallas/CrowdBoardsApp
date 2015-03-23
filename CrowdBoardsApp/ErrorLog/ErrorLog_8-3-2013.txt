@@ -1,0 +1,189 @@
+
+8/3/2013 1:32:44 PM
+System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Net.WebRequest.Create(String requestUriString)
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 257
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:33:31 PM
+System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Net.WebRequest.Create(String requestUriString)
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 257
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:35:20 PM
+System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Net.WebRequest.Create(String requestUriString)
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 257
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:36:41 PM
+System.UriFormatException: Invalid URI: The URI is empty.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Net.WebRequest.Create(String requestUriString)
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 257
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:37:49 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at CrowdBoardsApp.oAuthLinkedIn.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 301
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 278
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:39:46 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at CrowdBoardsApp.oAuthLinkedIn.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 301
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 278
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:45:49 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at CrowdBoardsApp.oAuthLinkedIn.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 301
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 278
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:47:14 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at CrowdBoardsApp.oAuthLinkedIn.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 301
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 278
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 1:52:47 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at CrowdBoardsApp.oAuthLinkedIn.WebResponseGet(HttpWebRequest webReq) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 301
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 278
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 2:06:52 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at CrowdBoardsApp.oAuthLinkedIn.WebResponseGet(HttpWebRequest webReq) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 301
+   at CrowdBoardsApp.oAuthLinkedIn.WebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 278
+   at CrowdBoardsApp.oAuthLinkedIn.oAuthWebRequest(Method method__1, String url, String postData) in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 181
+   at CrowdBoardsApp.oAuthLinkedIn.AuthorizationLinkGet() in E:\OfficeProject\CrowdBoardsApp\Global_Code\oAuthLinkedIn.vb:line 85
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 176
+8/3/2013 2:25:48 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 2:32:41 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 2:34:58 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 2:40:42 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 2:46:00 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 2:53:56 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 3:01:48 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 3:21:07 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 3:21:53 PM
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at CrowdBoardsApp.LinkedInRegister.RegisterUser(String id, String firstName, String lastName) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Account\LinkedInRegister.aspx.vb:line 113
+   at CrowdBoardsApp.LinkedInRegister.RegisterLinkedInUser() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Account\LinkedInRegister.aspx.vb:line 70
+ClientConnectionId:24a371fd-7a13-4b36-af18-f672fb2d2acf
+8/3/2013 3:25:01 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 3:34:29 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182
+8/3/2013 3:36:46 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInLinkedIn_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 182

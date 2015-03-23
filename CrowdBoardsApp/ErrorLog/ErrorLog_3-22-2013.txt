@@ -1,0 +1,55 @@
+
+3/22/2013 11:05:15 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 18
+3/22/2013 11:42:21 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.BoardDetailsOld.btnStatusChange_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 240
+3/22/2013 11:56:19 AM
+System.InvalidCastException: Conversion from string "dd,MM,yyyy" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.BoardDetailsOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 141
+   at CrowdBoardsApp.BoardDetailsOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 28
+3/22/2013 11:59:04 AM
+System.InvalidCastException: Conversion from string "dd,MM,yyyy" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.BoardDetailsOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 141
+   at CrowdBoardsApp.BoardDetailsOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 28
+3/22/2013 12:00:53 PM
+System.InvalidCastException: Conversion from string "MM,dd,yyyy" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.BoardDetailsOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 141
+   at CrowdBoardsApp.BoardDetailsOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 28
+3/22/2013 12:01:30 PM
+System.InvalidCastException: Conversion from string "dd/mm/yyyy" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.BoardDetailsOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 141
+   at CrowdBoardsApp.BoardDetailsOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 28
+3/22/2013 12:02:39 PM
+System.InvalidCastException: Conversion from string "dd/MM/yyyy" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.BoardDetailsOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 141
+   at CrowdBoardsApp.BoardDetailsOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 28
+3/22/2013 12:03:27 PM
+System.InvalidCastException: Conversion from string "MM/dd/yyyy" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at CrowdBoardsApp.BoardDetailsOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 141
+   at CrowdBoardsApp.BoardDetailsOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails-Old.aspx.vb:line 28
+3/22/2013 6:21:41 PM
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_PK_ProjectInvestors'. Cannot insert duplicate key in object 'dbo.BoardInvestors'.
+The statement has been terminated.
+   at CrowdBoardsApp.Confirm.AddInvestment() in E:\OfficeProject\CrowdBoardsApp\Confirm.aspx.vb:line 154
+   at CrowdBoardsApp.Confirm.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Confirm.aspx.vb:line 24
+ClientConnectionId:a81549dc-1264-4f4b-b1a1-1f285aeaf4de

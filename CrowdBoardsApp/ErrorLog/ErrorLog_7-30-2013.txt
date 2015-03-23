@@ -1,0 +1,22 @@
+
+7/30/2013 12:00:19 PM
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'false'.
+   at CrowdBoardsApp._Default.UpdateUserProfile(String UserName, String FirstName, String LastName, String email, String uuid) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 122
+   at CrowdBoardsApp._Default.lbtnSingup_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 72
+ClientConnectionId:338db77d-d104-4007-abcc-0471964025a8
+7/30/2013 5:07:39 PM
+System.ArgumentException: BoardsWatching is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 142
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+7/30/2013 5:08:02 PM
+System.ArgumentException: BoardsWatching is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 142
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+7/30/2013 5:08:05 PM
+System.ArgumentException: BoardsWatching is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 142
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26
+7/30/2013 5:08:15 PM
+System.ArgumentException: BoardsWatching is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 142
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 26

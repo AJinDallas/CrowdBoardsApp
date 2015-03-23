@@ -1,0 +1,261 @@
+
+
+.container {
+	border-radius: 3px;
+	background: #FBFBFB;
+	min-height: 700px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	-webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+}
+
+	.title {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-size: 22px;
+	}
+
+/* Column 1 CSS
+-------------------------------------------------- */
+	.column1 {
+		width: 50%;
+		height: 700px;
+		float: left;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.top-title {
+		font-size: 26px;
+	}
+
+	/* left box 1 CSS
+	-------------------------------------------------- */
+		.l-box-1 {
+			width: 100%;
+			min-height: 280px;
+			border: 2px solid #79B5C9;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			padding-bottom: 20px;
+		}
+		.l-box-1 a {
+			color: #79B5C9;
+			text-decoration: none;
+			font-size: 22px;
+		}
+		.l-box-1 form input {
+			border: 1px solid #79B5C9;
+			height: 32px;
+			font-size: 16px;
+			padding-left: 5px;
+			margin-top: 10px;
+		}
+		.twoina-row input {
+			width: 48%;
+			margin-left: 1%;
+		}
+		.full-row input {
+			width: 98%;
+			margin-left: 1%;
+		}
+		.change-password {
+			margin-top: 12px;
+			margin-left: 1%;
+		}
+		#main-picture-button, #cover-picture-button {
+			margin-left: 1.3%;
+			width: 48%;
+	        font-size: 16px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+		}
+
+	/* left box 2 CSS
+	-------------------------------------------------- */
+		.l-box-2 {
+			width: 100%;
+			min-height: 250px;
+			border: 2px solid #79B5C9;
+			margin-left: auto;
+			margin-right: auto;
+		}
+			.l-box-2 form input {
+				border: 1px solid #79B5C9;
+				height: 32px;
+				width: 100%;
+				font-size: 16px;
+				padding-left: 5px;
+				margin-top: 6px;
+				margin-bottom: 10px;
+			}
+			.box-column1,.box-column2 {
+				float: left;
+				width: 50%;
+				height: 280px;
+				padding: 10px;
+				padding-top: 20px;
+				font-size: 18px;
+			}
+
+
+/* Column 2 CSS
+-------------------------------------------------- */
+	.column2 {
+		width: 50%;
+		height: 700px;
+		float: left;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/* right box 1 CSS
+	-------------------------------------------------- */
+		.r-box-1 {
+			width: 100%;
+			min-height: 180px;
+			border: 2px solid #79B5C9;
+			font-size: 22px;
+		}
+		.r-box-1 form {
+
+		}
+		.r-box-1 select {
+			width: 70%;
+			font-size: 16px;
+			height: 32px;
+			border: 1px solid #79B5C9;
+			margin-top: 10px;
+		}
+		.r-box-1 a {
+			color: #79B5C9;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		.r-box-1 .box-column2, .r-box-1 .box-column1 {
+			height: 130px;
+		} 
+
+		.r-box-1 .box-column2 div {
+			font-size: 22px;
+		}
+		.r-box-1 .box-column2 a {
+			font-size: 12px;
+		}
+		.r-box-1 .box-column2 span {
+			margin-left: 3px;
+			font-size: 14px;
+		}
+		#change-button {
+			float: right;
+			padding: 4px 12px 6px;
+			margin-right: 54px;
+			margin-top: 5px;
+	        font-size: 16px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+		}
+		.r-box-1 .sub-row form {
+			padding: 8px;
+		}
+		.r-box-1 form input {
+			border: 1px solid #79B5C9;
+			height: 32px;
+			width: 60%;
+			font-size: 16px;
+			padding-left: 5px;
+			margin-top: 6px;
+			margin-bottom: 10px;
+		}
+
+
+	/* right box 2 CSS
+	-------------------------------------------------- */
+		.r-box-2 {
+			width: 100%;
+			min-height: 280px;
+			border: 2px solid #79B5C9;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			padding-bottom: 20px;
+		}
+		.r-box-2 form {
+			line-height: 2em;
+		}
+		.r-box-2 form span {
+			font-size: 10px;
+			margin-left: 3px;
+			font-size: italic;
+		}
+
+		.r-box-2 textarea {
+			height: 50px;
+		}
+
+/* other
+-------------------------------------------------- */
+	.save-button-container {
+		display: block;
+		text-align: center;
+	}
+	#save-button {
+		padding: 10px 28px 12px;
+		margin-top: 15px;
+        font-size: 26px;    
+        font-weight: 600;
+        background-color: #75B4C6;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	}
+		
+/* pseudo-elements
+-------------------------------------------------- */
+
+
+.l-box-1 a:hover, .r-box-1 a:hover {
+	color:#3C6C79;
+}
+#main-picture-button:hover, #cover-picture-button:hover, #change-button:hover, #save-button:hover {
+	background: #3C6C79;
+}
+form input:hover {
+	border-color: #3C6C79;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media only screen and (min-width: 1400px) {
+  .container{
+    width: 1400px;
+  }
+}

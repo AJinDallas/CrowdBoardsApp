@@ -1,0 +1,130 @@
+
+2/22/2013 12:07:04 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 12:14:58 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 12:35:05 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 12:47:39 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 12:47:57 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 12:48:20 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 1:04:14 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 1:23:34 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 1:39:48 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 1:56:18 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 87
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 2:31:13 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 2:31:18 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 2:31:52 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 2:31:54 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 2:35:36 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 2:36:36 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 3:26:08 PM
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '.'.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+ClientConnectionId:7ea1a9cc-1a1e-41b6-aa26-4c7cd19d2892
+2/22/2013 3:31:38 PM
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '.'.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+ClientConnectionId:f89eff18-8ad8-42fc-b5aa-c705c833f663
+2/22/2013 3:32:09 PM
+System.ArgumentException: TEXT is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 4:38:42 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 88
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 5:18:57 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 94
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 5:56:08 PM
+System.IndexOutOfRangeException: Index 0 is either negative or above rows count.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 94
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 5:57:20 PM
+System.IndexOutOfRangeException: Index 0 is either negative or above rows count.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 94
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 6:31:23 PM
+System.ArgumentException: Job is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 103
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 6:32:00 PM
+System.ArgumentException: Job is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 103
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 6:34:57 PM
+System.ArgumentException: Job is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 103
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 6:38:32 PM
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Job'.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 103
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+ClientConnectionId:30565a15-02bc-477e-b9e1-e8d14fbd460e
+2/22/2013 6:40:30 PM
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Job'.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 103
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+ClientConnectionId:e3f3f5c7-3c2d-420b-ae7f-f34478ecbbbb
+2/22/2013 6:41:32 PM
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'City/State'.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 103
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+ClientConnectionId:9c65f16d-0da8-4db7-a4e3-2b27ae86e218
+2/22/2013 6:42:32 PM
+System.ArgumentException: Birthdate is neither a DataColumn nor a DataRelation for table DefaultView.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 103
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/22/2013 8:18:04 PM
+System.IndexOutOfRangeException: Index 0 is either negative or above rows count.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 104
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13

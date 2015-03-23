@@ -1,0 +1,5 @@
+
+3/5/2013 5:15:53 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 124
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13

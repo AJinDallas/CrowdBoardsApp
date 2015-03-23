@@ -1,0 +1,74 @@
+
+3/8/2013 4:48:42 PM
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at System.Web.UI.WebControls.Parameter.GetValue(Object value, String defaultValue, TypeCode type, Boolean convertEmptyStringToNull, Boolean ignoreNullableTypeChanges)
+   at System.Web.UI.WebControls.Parameter.GetValue(Object value, Boolean ignoreNullableTypeChanges)
+   at System.Web.UI.WebControls.Parameter.get_ParameterValue()
+   at System.Web.UI.WebControls.ParameterCollection.GetValues(HttpContext context, Control control)
+   at System.Web.UI.WebControls.SqlDataSourceView.InitializeParameters(DbCommand command, ParameterCollection parameters, IDictionary exclusionList)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteUpdate(IDictionary keys, IDictionary values, IDictionary oldValues)
+   at System.Web.UI.WebControls.SqlDataSource.Update()
+   at CrowdBoardsApp.OldHome.rgMyBoarders_ItemCommand(Object source, GridCommandEventArgs e) in E:\OfficeProject\CrowdBoardsApp\OldHome.aspx.vb:line 82
+3/8/2013 4:48:45 PM
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at System.Web.UI.WebControls.Parameter.GetValue(Object value, String defaultValue, TypeCode type, Boolean convertEmptyStringToNull, Boolean ignoreNullableTypeChanges)
+   at System.Web.UI.WebControls.Parameter.GetValue(Object value, Boolean ignoreNullableTypeChanges)
+   at System.Web.UI.WebControls.Parameter.get_ParameterValue()
+   at System.Web.UI.WebControls.ParameterCollection.GetValues(HttpContext context, Control control)
+   at System.Web.UI.WebControls.SqlDataSourceView.InitializeParameters(DbCommand command, ParameterCollection parameters, IDictionary exclusionList)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteUpdate(IDictionary keys, IDictionary values, IDictionary oldValues)
+   at System.Web.UI.WebControls.SqlDataSource.Update()
+   at CrowdBoardsApp.OldHome.rgMyBoarders_ItemCommand(Object source, GridCommandEventArgs e) in E:\OfficeProject\CrowdBoardsApp\OldHome.aspx.vb:line 82
+3/8/2013 4:50:09 PM
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, TypeCode typeCode, IFormatProvider provider)
+   at System.Web.UI.WebControls.Parameter.GetValue(Object value, String defaultValue, TypeCode type, Boolean convertEmptyStringToNull, Boolean ignoreNullableTypeChanges)
+   at System.Web.UI.WebControls.Parameter.GetValue(Object value, Boolean ignoreNullableTypeChanges)
+   at System.Web.UI.WebControls.Parameter.get_ParameterValue()
+   at System.Web.UI.WebControls.ParameterCollection.GetValues(HttpContext context, Control control)
+   at System.Web.UI.WebControls.SqlDataSourceView.InitializeParameters(DbCommand command, ParameterCollection parameters, IDictionary exclusionList)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteUpdate(IDictionary keys, IDictionary values, IDictionary oldValues)
+   at System.Web.UI.WebControls.SqlDataSource.Update()
+   at CrowdBoardsApp.OldHome.rgMyBoarders_ItemCommand(Object source, GridCommandEventArgs e) in E:\OfficeProject\CrowdBoardsApp\OldHome.aspx.vb:line 82
+3/8/2013 5:03:42 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.OldHome.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\OldHome.aspx.vb:line 14
+3/8/2013 5:29:30 PM
+System.IO.IOException: The process cannot access the file 'E:\OfficeProject\CrowdBoardsApp\Upload\BoardDirectory\sdfg\Index.html' because it is being used by another process.
+   at CrowdBoardsApp.BoardPage.ReadFile(String path) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 81
+   at CrowdBoardsApp.BoardPage.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 18
+3/8/2013 5:33:07 PM
+System.IO.IOException: The process cannot access the file 'E:\OfficeProject\CrowdBoardsApp\Upload\BoardDirectory\hello-world\Index.html' because it is being used by another process.
+   at CrowdBoardsApp.BoardPage.ReadFile(String path) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 81
+   at CrowdBoardsApp.BoardPage.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 18
+3/8/2013 5:35:35 PM
+System.IO.IOException: The process cannot access the file 'E:\OfficeProject\CrowdBoardsApp\Upload\BoardDirectory\hello-world-for\Index.html' because it is being used by another process.
+   at CrowdBoardsApp.BoardPage.ReadFile(String path) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 81
+   at CrowdBoardsApp.BoardPage.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 18
+3/8/2013 6:27:41 PM
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at CrowdBoardsApp.Messages.LoadRootNodes() in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 44
+   at CrowdBoardsApp.Messages.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 13
+3/8/2013 6:39:24 PM
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at CrowdBoardsApp.Messages.LoadRootNodes() in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 44
+   at CrowdBoardsApp.Messages.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 13
+3/8/2013 6:45:08 PM
+System.IO.IOException: The process cannot access the file 'E:\OfficeProject\CrowdBoardsApp\Upload\BoardDirectory\live-board\Index.html' because it is being used by another process.
+   at CrowdBoardsApp.BoardPage.ReadFile(String path) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 81
+   at CrowdBoardsApp.BoardPage.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardPage.aspx.vb:line 18
+3/8/2013 7:34:38 PM
+System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at CrowdBoardsApp.Messages.LoadRootNodes() in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 44
+   at CrowdBoardsApp.Messages.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Messages.aspx.vb:line 13

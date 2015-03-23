@@ -1,0 +1,24 @@
+
+3/2/2013 1:08:29 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 35
+3/2/2013 1:09:19 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 35
+3/2/2013 1:10:49 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 35
+3/2/2013 1:12:46 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 35
+3/2/2013 1:14:26 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.MyProfile.SaveChanges() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 35
+3/2/2013 3:13:24 PM
+System.ArgumentException: PossessionID is neither a DataColumn nor a DataRelation for table DefaultView.
+   at System.Data.DataRowView.get_Item(String property)
+   at CrowdBoardsApp.MyProfile.btnUploadPossession_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 161
+3/2/2013 4:39:15 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 115
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13

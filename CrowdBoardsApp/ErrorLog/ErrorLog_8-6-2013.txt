@@ -1,0 +1,59 @@
+
+8/6/2013 11:29:53 AM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInTwitter_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 85
+8/6/2013 11:40:57 AM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInTwitter_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Default.aspx.vb:line 85
+8/6/2013 12:48:37 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at oAuthExample.oAuthTwitter.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 376
+   at oAuthExample.oAuthTwitter.WebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 348
+   at oAuthExample.oAuthTwitter.oAuthWebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 227
+   at oAuthExample.oAuthTwitter.AccessTokenGet(String authToken, String oauthVerifier) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 132
+   at CrowdBoardsApp.TwitterRegister.GetUserDetailsFromTwitter() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Account\TwitterRegister.aspx.vb:line 34
+8/6/2013 12:49:02 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at oAuthExample.oAuthTwitter.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 376
+   at oAuthExample.oAuthTwitter.WebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 348
+   at oAuthExample.oAuthTwitter.oAuthWebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 227
+   at oAuthExample.oAuthTwitter.AccessTokenGet(String authToken, String oauthVerifier) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 132
+   at CrowdBoardsApp.TwitterRegister.GetUserDetailsFromTwitter() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Account\TwitterRegister.aspx.vb:line 34
+8/6/2013 12:50:29 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at oAuthExample.oAuthTwitter.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 376
+   at oAuthExample.oAuthTwitter.WebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 348
+   at oAuthExample.oAuthTwitter.oAuthWebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 227
+   at oAuthExample.oAuthTwitter.AccessTokenGet(String authToken, String oauthVerifier) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 132
+   at CrowdBoardsApp.TwitterRegister.GetUserDetailsFromTwitter() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Account\TwitterRegister.aspx.vb:line 34
+8/6/2013 1:21:51 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at oAuthExample.oAuthTwitter.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 376
+   at oAuthExample.oAuthTwitter.WebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 348
+   at oAuthExample.oAuthTwitter.oAuthWebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 227
+   at oAuthExample.oAuthTwitter.AccessTokenGet(String authToken, String oauthVerifier) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 132
+   at CrowdBoardsApp.TwitterRegister.GetUserDetailsFromTwitter() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Account\TwitterRegister.aspx.vb:line 34
+8/6/2013 1:24:59 PM
+System.Net.WebException: The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at oAuthExample.oAuthTwitter.WebResponseGet(HttpWebRequest webRequest) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 376
+   at oAuthExample.oAuthTwitter.WebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 348
+   at oAuthExample.oAuthTwitter.oAuthWebRequest(Method method, String url, String postData) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 227
+   at oAuthExample.oAuthTwitter.AccessTokenGet(String authToken, String oauthVerifier) in E:\OfficeProject\CrowdBoards\TwitterLibrary\oAuthTwitter.cs:line 132
+   at CrowdBoardsApp.TwitterRegister.GetUserDetailsFromTwitter() in E:\OfficeProject\CrowdBoards\CrowdBoardsApp\Account\TwitterRegister.aspx.vb:line 34

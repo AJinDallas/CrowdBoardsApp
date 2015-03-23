@@ -1,0 +1,327 @@
+
+html {
+	font-size: 1em;
+}
+
+.container {
+	background: none;
+}
+
+/* FIRST ROW
+----------------------------------------------------------------------------- */
+
+
+
+	.districts{
+		background: #FBFBFB;
+		overflow: scroll;
+		padding-top: 20px;
+		padding-bottom: 18px;
+		padding-right: 10px;
+		min-height: 120px;
+		width: 100%;
+    	border-radius: 2px;
+    	margin-top: 8px;
+    	-webkit-box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+        	    box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+	}
+	.districts-container {
+		float: left;
+		width: 85%;
+		height: 100%;
+
+	}
+	
+
+		.districts .title {
+			display: block;
+			text-align: center;
+			padding-top: 30px;
+			padding-bottom: 40px;
+			font-size: 2em;
+			font-weight: 600;
+		}
+		.districts .title {
+			height: 100%;
+			float: left;
+			padding-left: 20px;
+			width: 15%;
+		}
+	
+
+			.districts-list-item {
+				display: block;
+				float: left;
+				min-height: 46px;
+				min-width: 104px;
+				text-align: center;
+				background: #72B2C7;
+				margin: 1px;
+				border-radius: 2px;
+			}
+
+			.districts-list-item a {
+				display: block;
+				width:100%;
+				padding-top: 14px;
+				min-height: 46px;
+				text-decoration: none;
+				color: #fff;
+				font-variant: normal;
+			}
+
+/*-------------------------------------------------- */
+
+
+a {
+	text-decoration: none;
+}
+
+.main-body {
+    padding: 1.5em;
+    float:left;
+    width:100%;
+    border-radius: 3px;
+    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+    height: 700px;
+    background: #FBFBFB;
+}
+
+
+
+/* Update
+-------------------------------------------------- */
+
+.update-container {
+	margin-top: 8px;
+    padding: 1.5em;
+    float:left;
+    width:100%;
+    border-radius: 3px;
+    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+    height: 625px;
+    background: #FBFBFB;
+}
+
+.update-container .title {
+	font-size: 32px;
+	font-weight: 100;
+	margin-bottom: 18px;
+
+}
+.update-container .title span {
+	font-size: 34px;
+	font-weight: 600;
+}
+	.update-container .district-news a {
+		color: #75B4C6;
+	}
+	.update-container .area-news a {
+		color: #48A88D;
+	}
+	.update-container .title a {
+		font-size: 16px;
+		margin-right: 8px;
+	}
+	.update-container .title div {
+		margin-left: 190px;
+	}
+	.update-container .title div a {
+		margin-right: 25px;
+	}
+	.update-container .title input {
+		float: right;
+		margin-right: 28px;
+	}
+#add-district-button, #add-area-button {
+    padding: 5px 11px 6px;
+    font-size: 24px;    
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+#add-district-button {
+	background-color: #75B4C6;
+}
+#add-area-button {
+	background-color: #48A88D;
+}
+
+.update-container .left-column {
+	width: 25%;
+	float: left;
+	height: 515px;
+	padding-right: 2%;
+}
+	.profile-picture {
+		margin-right: 10px;
+		height: 100px;
+		width: 100px;
+		padding: 2px;
+	}
+		.profile-picture img {
+			height: 100%;
+			width: 100%;
+		}
+	#boarder-name { 
+		font-size: 16px;
+		margin-top: 68px;
+	}
+	#profile {
+		font-size: 14px;
+	}
+	#profile a {
+		font-size: 12px;
+	}
+
+	#post-button, #attach-button {
+		font-size: 12px;
+		margin-top: 8px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+		padding: 8px 10px;
+	}
+.update-container .right-column {
+	width: 75%;
+	float: left;
+	height: 515px;
+	overflow: auto;
+	padding-left: 1%;
+	padding-bottom: 18px;
+}
+
+.update-container .right-column .crowdnews-post {
+	width: 49%;
+	margin-right: .5%;
+}
+
+/* WOTS population
+-------------------------------------------------- */
+
+.boarders-container {
+	margin-top: -20px;
+	overflow: auto;
+	height: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.boarder-lineup {
+			position: relative;;
+	        border-radius: 1px;
+	        display: inline-block;
+	        background: #FFFFFF;
+	        width: 290px;
+	        margin: 5px;
+	       	min-height: 140px;
+	        font-size: 18px;
+	        padding: 5px;
+          	-webkit-box-shadow: 0 0 8px rgba(150, 149, 150, 1);
+               	    box-shadow: 0 0 8px rgba(150, 149, 150, 1); 
+		}
+		.boarder-lineup img {
+			height: 125px;
+			width: 125px;
+			float: left;
+		}
+
+		.lineup-content {
+			font-size: 14px;
+			line-height: 1.3em;
+			color: #788586;
+			font-weight: 600;
+			padding-bottom: 34px;
+		}
+
+		.lineup-content div {
+
+		}
+		.boarder-lineup-image {
+			display: inline-block;
+			float: left;
+			margin-right: 5px;
+			position: relative;
+		}
+		.boarder-lineup-image .boarder-name-container {
+			position: absolute;
+			bottom: 5px;
+			padding-left: 5px;
+			padding-right: 5px;
+			width: 100%;
+		}
+
+		.boarder-lineup-image .boarder-name {
+			background: rgba(59, 59, 59, .6);
+			font-size: 16px;
+			width: 100%;
+			line-height: 1.5em;
+			text-align: center;
+		}
+
+		.boarder-lineup-image .boarder-name a {
+			text-decoration: none;
+			color: rgba(117, 180, 198, .4);
+		}
+
+		.lineup-content span {
+			font-weight: 400;
+		}
+		.lineup-content span:before {
+			content: " ";
+		}
+
+		.add-boarder {
+
+		}
+		#add-boarder-button, #remove-from-lineup-button, #add-to-lineup-button {
+			position: absolute;
+			bottom: 6px;
+			right: 12px;
+	        padding: 5px 11px 6px;
+	        font-size: 14px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      }
+
+
+      .boarder-lineup-image:hover .boarder-name a {
+	color: rgba(117, 180, 198, .6);
+}
+
+
+
+/* pseudo-elements
+-------------------------------------------------- */
+.update-container .district-news a:hover {
+	color: #3C6C79;
+}
+.update-container .area-news a:hover {
+	color:#3D8E78
+}
+
+#add-district-button:hover, #add-boarder-button:hover {
+	background-color: #3C6C79;
+}
+
+#add-area-button:hover {
+	background-color: #3D8E78;
+}

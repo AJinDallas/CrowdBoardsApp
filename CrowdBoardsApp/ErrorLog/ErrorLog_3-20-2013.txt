@@ -1,0 +1,36 @@
+
+3/20/2013 11:18:16 AM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.BoardDetails.ShowNotifications() in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 57
+   at CrowdBoardsApp.BoardDetails.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 36
+3/20/2013 12:11:34 PM
+System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "A.AreaName" could not be bound.
+   at CrowdBoardsApp.BoardOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\Board-Old.aspx.vb:line 100
+   at CrowdBoardsApp.BoardOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board-Old.aspx.vb:line 31
+ClientConnectionId:09fc5485-a82b-4970-b778-bdb4a9729e89
+3/20/2013 12:11:46 PM
+System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "A.AreaName" could not be bound.
+   at CrowdBoardsApp.BoardOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\Board-Old.aspx.vb:line 100
+   at CrowdBoardsApp.BoardOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board-Old.aspx.vb:line 31
+ClientConnectionId:09fc5485-a82b-4970-b778-bdb4a9729e89
+3/20/2013 4:03:20 PM
+System.Data.SqlClient.SqlException (0x80131904): The multi-part identifier "A.AreaName" could not be bound.
+   at CrowdBoardsApp.BoardOld.LoadBoardDescriptionInfo() in E:\OfficeProject\CrowdBoardsApp\Board-Old.aspx.vb:line 100
+   at CrowdBoardsApp.BoardOld.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board-Old.aspx.vb:line 31
+ClientConnectionId:92645875-06f5-475b-b331-31963504fded
+3/20/2013 5:51:23 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+3/20/2013 6:22:08 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+3/20/2013 7:27:03 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+3/20/2013 7:33:04 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19

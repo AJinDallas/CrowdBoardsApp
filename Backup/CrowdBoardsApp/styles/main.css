@@ -1,0 +1,151 @@
+*::-webkit-input-placeholder {
+    color: #72B2C7;
+    font-weight: 100;
+    font-family: helvetica;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #72B2C7;
+    font-weight: 100;
+    font-family: helvetica;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #72B2C7;
+    font-weight: 100;
+    font-family: helvetica;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #72B2C7;
+    font-weight: 100;
+    font-family: helvetica;
+}
+body {
+	margin-top: 0;
+}
+html {
+	font-size: 16px;
+	font-family: helvetica;
+}
+
+.container {
+	clear: both;
+	width: 99%;
+	height: 100%;
+	margin: auto;
+}
+
+.banner-picture {
+	width: 100%;
+	position: relative;
+}
+.banner-picture img {
+	width: 100%;
+}
+.email-banner img {
+	height: 500px;
+}
+.video-banner img {
+	height: 700px;
+}
+
+.headline {
+	color: #72B2C7;
+	text-align: center;
+	font-weight: 100;
+	line-height: 2em;
+	font-size: 3.5em;
+}
+.be-ready-row {
+	position: absolute;
+	top: 520px;
+	left: 12%;
+	color: #fff;
+	font-size: 2.5em;
+	margin-left: 110px;
+	font-weight: 600;
+}
+.sign-up-row {
+	text-align: center;
+}
+
+.sign-up-row #email-input-text {
+	font-size: 1.8em;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .315em;
+	padding-bottom: .33em;
+	border: 1px solid #72B2C7;
+	margin-right: 0;
+
+}
+#see-video-button {
+	margin-left: -4px;
+	padding-bottom: 11px;
+	padding-top: 13px;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-family: helvetica;
+	font-size: 1.7em;
+	color: #fff;
+	letter-spacing: -1px;
+	font-weight: 100;
+	background-color: #72B2C7;
+	border: none;
+
+}
+
+
+#see-video-button:hover {
+	background-color: #3C6C79;
+	cursor: pointer;
+}
+
+.email-container {
+	padding-bottom: 50px;
+}
+
+
+.banner-text {
+	position: absolute;
+	top: 55px;
+	left: 30%;
+	color: #fff;
+	font-size: 2.3em;
+	font-weight: 100;
+}
+
+.empty-white-box {
+	position: absolute;
+	top: 120px;
+	left: 26%;
+	height: 50%;
+	width: 50%;
+}
+
+.social-row {
+	position: absolute;
+	top: 69%;
+	left: 33%;
+}
+.social-row img {
+	width: 22%;
+	height: 22%;
+	margin-right: 8px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media only screen and (min-width: 1400px) {
+  .container{
+    width: 1400px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 1600px;
+  }
+}

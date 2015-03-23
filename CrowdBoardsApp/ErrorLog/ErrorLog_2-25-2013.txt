@@ -1,0 +1,20 @@
+
+2/25/2013 2:44:07 PM
+Telerik.Web.UI.GridException: Cannot find a column with UniqueName 'DistrictID'
+   at Telerik.Web.UI.GridTableView.GetColumn(String columnUniqueName)
+   at Telerik.Web.UI.GridEditManager.GetColumnEditor(String columnUniqueName)
+   at CrowdBoardsApp.Admin.rgAreas_InsertCommand(Object source, GridCommandEventArgs e) in E:\OfficeProject\CrowdBoardsApp\Admin\Admin.aspx.vb:line 73
+2/25/2013 2:47:24 PM
+System.InvalidCastException: Unable to cast object of type 'Telerik.Web.UI.GridDropDownListColumnEditor' to type 'Telerik.Web.UI.GridDropDownColumn'.
+   at CrowdBoardsApp.Admin.rgAreas_InsertCommand(Object source, GridCommandEventArgs e) in E:\OfficeProject\CrowdBoardsApp\Admin\Admin.aspx.vb:line 73
+2/25/2013 3:27:05 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 104
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/25/2013 3:48:18 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Profile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 104
+   at CrowdBoardsApp.Profile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Profile.aspx.vb:line 13
+2/25/2013 8:03:09 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.OldHome.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\OldHome.aspx.vb:line 14

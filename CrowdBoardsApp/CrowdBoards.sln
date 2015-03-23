@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CrowdBoardsApp", "CrowdBoardsApp.vbproj", "{0CDDC3D5-BE7A-4846-88AC-F950BFE35486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedInLibrary", "..\LinkedInLibrary\LinkedInLibrary.csproj", "{2811EB52-C212-4FDE-BC79-DEECF267E82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterLibrary", "..\TwitterLibrary\TwitterLibrary.csproj", "{3EE0CCF0-C3DC-4045-AE96-26C7B0CB7B54}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CrowdBoardsApp.vbproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\LinkedInLibrary\\LinkedInLibrary.csproj
+		SccProjectName2 = \u0022$/Steve/LinkedInLibrary\u0022,\u0020YGGBAAAA
+		SccLocalPath2 = ..\\LinkedInLibrary
+		SccProjectUniqueName3 = ..\\TwitterLibrary\\TwitterLibrary.csproj
+		SccProjectName3 = \u0022$/Steve/TwitterLibrary\u0022,\u0020XHGBAAAA
+		SccLocalPath3 = ..\\TwitterLibrary
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CDDC3D5-BE7A-4846-88AC-F950BFE35486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDDC3D5-BE7A-4846-88AC-F950BFE35486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDDC3D5-BE7A-4846-88AC-F950BFE35486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDDC3D5-BE7A-4846-88AC-F950BFE35486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2811EB52-C212-4FDE-BC79-DEECF267E82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2811EB52-C212-4FDE-BC79-DEECF267E82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2811EB52-C212-4FDE-BC79-DEECF267E82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2811EB52-C212-4FDE-BC79-DEECF267E82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE0CCF0-C3DC-4045-AE96-26C7B0CB7B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE0CCF0-C3DC-4045-AE96-26C7B0CB7B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE0CCF0-C3DC-4045-AE96-26C7B0CB7B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE0CCF0-C3DC-4045-AE96-26C7B0CB7B54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

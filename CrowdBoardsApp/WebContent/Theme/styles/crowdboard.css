@@ -1,0 +1,685 @@
+html {
+	font-size: 1em;
+}
+
+.container {
+	background: none;
+}
+
+#navbar {
+	position: fixed;
+	z-index: 200;
+
+}
+
+#navbar ul {
+    -webkit-transition: background 4s; /* For Safari 3.1 to 6.0 */
+    transition: background 4s;
+}
+
+.main-body {
+	background: #FBFBFB;
+	width: 69%;
+	height: 100%;
+	border-radius: 3px;
+	margin-top: 8px;
+	padding-bottom: 40px;
+	-webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+    		box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+}
+
+#more-information {
+	
+}
+/* FIRST ROW
+----------------------------------------------------------------------------- */
+#first-row {
+	position: relative;
+}
+
+	.crowdboard-banner {
+		width:100%;
+		margin-top: 54px;
+		height: 375px;
+		background: #FBFBFB;
+    	border-radius: 3px;
+    	-webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            	box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+	}
+
+		.crowdboard-banner-picture img {
+			width: 100%;
+			height: 310px;
+
+		}
+		.crowdboard-banner .crowdboard-profile-name-tag {
+			font-size: 32px;
+			margin-left: 360px;
+			margin-top: 15px;
+			font-weight: 600;
+			white-space: nowrap;
+		}
+		.crowdboard-banner .crowdboard-profile-name {
+			font-weight: 600;
+			margin-left: 8px;
+		}
+
+
+	.crowdboard-profile-picture {
+		width: 250px;
+		height: 250px;
+		padding: 10px;
+		margin-left: 4%;
+		margin-top: 120px;
+		background: #fff;
+    	-webkit-box-shadow: 0 0 8px rgba(150, 149, 150, 1);
+    			box-shadow: 0 0 8px rgba(150, 149, 150, 1);
+	}
+	.crowdboard-profile-picture img {
+		width: 230px;
+		height: 230px;
+	}
+
+/* Floating Column
+----------------------------------------------------------------------------- */
+	.floating-column {
+		position: absolute;
+		height: 580px;
+		background: #F8FCFC;
+		width: 383px;
+		-webkit-box-shadow: 0 0 3px rgba(150, 149, 150, 1);
+    			box-shadow: 0 0 3px rgba(150, 149, 150, 1);
+	}
+	.fixedElement {
+		right: 5px;
+		top: 450px;
+		position: absolute;
+	}
+		.floating-first-row {
+			font-weight: 600;
+			color: white;
+			text-align: center;
+			padding: 8px 15px;
+			background-color: rgba(60, 60, 60, .9);
+		}
+		.floating-first-row span {
+			font-weight: 400;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+		.floating-first-row .middle {
+			display: inline-block;
+			width: 60%;
+		}
+		.floating-first-row .previous a {
+			float: left;
+			text-decoration: none;
+			color: #72B2C7;
+		}
+
+		.floating-first-row .next a {
+			float: right;
+			text-decoration: none;
+			color: #72B2C7;
+		}
+	/* Floating Column Mini Console
+----------------------------------------------------------------------------- */	
+
+	.crowdboard-mini-console {
+	    margin:0;
+	    width: 100%;
+	    height: 298px;
+	    position: relative;
+
+ 	 }
+ 	 .comment-number, .recommend-number, .boost-number, .watch-number {
+ 	 	font-size: 8px;
+ 	 }
+
+ 	 .crowdboard-mini-console .crowdboard-comment {
+ 	 	background-color: #778586;
+ 	 	float: left;
+ 	 	height: 57px;
+    	width: 80px;
+    	margin-bottom: 4px;
+    	margin-top: 4px;
+ 	 }
+ 	 .crowdboard-mini-console .crowdboard-comment img {
+
+ 	 }
+ 	 .crowdboard-mini-console .crowdboard-recommend {
+ 	 	background-color: #72B2C7;
+ 	 	float: left;
+ 	 	height: 57px;
+    	width: 80px;
+    	margin-bottom: 4px;
+ 	 }
+ 	 .crowdboard-mini-console .crowdboard-boost {
+ 	 	background-color: #48A88D;
+ 	 	float:left;
+ 	 	height: 57px;
+    	width: 80px;
+    	margin-bottom: 4px;
+ 	 }
+ 	 .crowdboard-mini-console .crowdboard-watch {
+ 	 	background-color: #778586;
+ 	 	float: left;
+ 	 	height: 57px;
+    	width: 80px;
+ 	 }
+
+    .crowdboard-mini-console .comment-number {
+      top: 52px;
+      left: 3px;
+    }
+    .crowdboard-mini-console .recommend-number {
+      top: 113px;
+      left: 3px;
+    }
+    .crowdboard-mini-console .boost-number {
+      top: 174px;
+      left: 3px;
+    }
+    .crowdboard-mini-console .watch-number {
+      top: 235px;
+      left: 3px;
+    }
+
+  .crowdboard-mini-console img {
+    display:block;
+    height: 37px;
+    width: 60px;
+    margin-right: 10px;
+    margin-top: 7px;
+    float: right;
+  }
+  .crowdboard-mini-console img:first-child {
+  }
+   
+  .crowdboard-measure {
+    background: #778586;
+    height: 240px;
+    width: 298px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    float:right;
+    position: relative;
+  }
+
+  .crowdboard-status-bar {
+    position: absolute;
+    top: 20px;
+    left: 41px;
+    width: 18px;
+    height: 195px;
+    background:#fff;
+  }
+
+  .crowdboard-measure-text {
+    float: left;
+    font-size: 26px;
+    line-height: 1.2em;
+    color:#fff;
+    margin-top: 25px;
+    margin-left: 95px;
+  }
+    .crowdboard-measure-text span {
+      font-weight: 100;
+    }
+  #invest-button {
+    width:100%;
+    height: 55px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px !important;
+    font-weight: 600;
+    background-color: #72B2C7;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+  }
+
+  	/* Last floating column container
+----------------------------------------------------------------------------- */	
+	.floating-last-box {
+		font-size: 20px;
+		clear: both;
+		line-height: 1.2em;
+		font-weight: 600;
+		padding-left: 15px;
+		padding-top: 5px;
+
+	}
+	.floating-last-box span {
+		line-height: 2em;
+	}
+	.floating-last-box a {
+		text-decoration: none;
+		font-weight: 400;
+		color: #72B2C7;
+	}
+
+
+
+/* Main Column
+----------------------------------------------------------------------------- */
+	.main-column {
+		width: 90%;
+		margin-left: 52px;
+		padding-top: 13px;
+	}
+
+	.main-column .title {
+		margin-top: 20px;
+		line-height: 2em;
+		font-size: 32px;
+	}
+
+	.content-box {
+		width: 97%;
+		background: #F8FCFC;
+		margin-left: 5px;
+		font-size: 19px;
+		margin-top: 15px;
+		padding: 20px;
+		padding-bottom: 30px;
+		min-height: 140px;
+		border-radius: 2px;
+		border: 1px solid #7E8A8B;
+    	-webkit-box-shadow: 0 0 3px rgba(121, 181, 201, 1);
+				box-shadow: 0 0 3px rgba(121, 181, 201, 1);
+		overflow: scroll;
+	}
+
+/*  <!--        video content            -->  ------------------------------------------------------------ */
+	.crowdboard-video {
+		height: 437px;
+		position: relative;
+		border-radius: 2px;
+			-webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+    		box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+	}
+	
+	.crowdboard-video a {
+		display: block;
+		height: 100%;
+	}
+
+	.crowdboard-video > a img {
+		display: block;
+		height: 437px;
+		border-radius: 2px;
+	}
+
+	.crowdboard-video .crowdboard-play-button {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.crowdboard-video .crowdboard-play-button a {		
+		text-align: center;
+	}
+	.crowdboard-video .crowdboard-play-button a img {	
+		height: 120px;
+		width: 120px;
+		margin-top: 140px;
+	}	
+
+
+	/*  <!--        introductory content            -->  ------------------------------------------------------------ */	
+
+	.introductory-box {
+
+	}
+
+	.intro-first-row {
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.intro-first-row span span {
+		margin-left: 5px;
+		font-weight: 400;
+	}
+
+	.intro-first-row .left {
+		float: left;
+	}
+	.intro-first-row .right {
+		float: right;
+	}
+
+	.intro-second-row {
+		margin-top: 40px;
+		font-weight: 600;
+	}
+
+	.intro-second-row span {
+		margin-left: 5px;
+		font-weight: 400;
+	}
+
+	/*  <!--        more information content            -->  ------------------------------------------------------------ */
+	.more-information-box {
+		color: black;
+	}
+		.more-information-box .sub-heading {
+			text-align: center;
+			font-weight: 600;
+			line-height: 4em;
+			font-size: 26px;
+		}
+
+		.more-information-box img {
+			margin-top: 15px;
+			margin-bottom: 15px;
+			width: 99%;
+
+
+		}
+
+	/*  <!--        media links content            -->  ------------------------------------------------------------ */
+
+	.media-links-box {
+
+	}
+	.media-links-box .left {
+		float: left;
+		width: 49%;
+	}
+	.media-links-box .right {
+		float: right;
+		width: 49%;
+		margin-left: 2%;
+	}
+	.media-links-box a {
+		text-decoration: none;
+		color: #72B2C7;
+		line-height: 2em;
+		font-size: 22px; 
+	}
+
+	/*  <!--        info pack content            -->  ------------------------------------------------------------ */
+
+	.info-pack-box {
+
+	}
+	.info-pack-box .left {
+		float: left;
+		width: 49%;
+	}
+	.info-pack-box .right {
+		float: left;
+		width: 49%;
+		margin-left: 2%;
+	}
+	.info-pack-box a {
+		text-decoration: none;
+		color: #72B2C7;
+		line-height: 2em;
+		font-size: 24px; 
+
+	}
+
+	/*  <!--        performance charts content            -->  ------------------------------------------------------------ */
+	.performance-charts-box {
+		text-align: center;
+	}
+	.performance-charts-box .sub-heading {
+		text-align: left;
+		font-size: 24px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.performance-charts-box .chart {
+		width: 95%;
+		margin-left: 2%;
+		height: 250px;
+		background: #72B2C7;
+		border: 1px solid black;
+
+	}
+
+	/*  <!--        crowdboard team content            -->  ------------------------------------------------------------ */
+
+	.crowdboard-team-box {
+		height: 450px;
+	}
+
+	.crowdboard-team-member {
+		width: 32%;
+		margin-left: 1%;
+		min-height: 380px;
+		border-radius: 2px;
+		border: 1px solid #7E8A8B;
+		background: #F8F8F8;
+		float: left;
+		text-align: center;
+		padding: 4px;
+		-webkit-box-shadow:   0 0 6px rgba(150, 149, 150, .5);
+    	      	box-shadow:   0 0 6px rgba(150, 149, 150, .5);
+	}
+
+	.crowdboard-team-member .team-member-image {
+		display: inline-block;
+		width: 180px;
+		height: 120px;
+		padding: 6px 30px;
+		border-radius: 2px;
+		background: #fff;
+    	-webkit-box-shadow:   0 0 6px rgba(150, 149, 150, .2);
+            	box-shadow:   0 0 6px rgba(150, 149, 150, .2);
+        margin-bottom: 10px;
+	}
+
+	.crowdboard-team-member .team-member-image img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.team-member-name {
+		font-size: 24px;
+	}
+	.team-member-position {
+		font-style: oblique;
+		margin-top: 10px;
+		display: block;
+		font-size: 22px;
+	}
+	.team-member-description {
+		line-height: 1.2em;
+		min-height: 167px;
+		margin-top: 20px;
+		text-align: left;
+		font-size: 18px;
+		border-radius: 2px;
+		background: #fff;
+		padding: 4px;
+    	-webkit-box-shadow:   0 0 6px rgba(150, 149, 150, .2);
+            	box-shadow:   0 0 6px rgba(150, 149, 150, .2);
+	}
+
+
+	/*  <!--        boarders in content            -->  ------------------------------------------------------------ */
+
+		.boarders-in-box {
+			height: 400px;
+		}
+
+		.boarder-lineup {
+			position: relative;;
+	        border-radius: 1px;
+	        display: inline-block;
+	        background: #FFFFFF;
+	        width: 332px;
+	        margin: 5px;
+	       	min-height: 140px;
+	        font-size: 18px;
+	        padding: 5px;
+          	-webkit-box-shadow: 0 0 8px rgba(150, 149, 150, 1);
+               	    box-shadow: 0 0 8px rgba(150, 149, 150, 1); 
+		}
+		.boarder-lineup img {
+			height: 125px;
+			width: 125px;
+			float: left;
+		}
+
+		.lineup-content {
+			font-size: 14px;
+			line-height: 1.3em;
+			color: #788586;
+			font-weight: 600;
+			padding-bottom: 34px;
+		}
+
+		.lineup-content div {
+
+		}
+		.boarder-lineup-image {
+			display: inline-block;
+			float: left;
+			margin-right: 5px;
+			position: relative;
+		}
+		.boarder-lineup-image .boarder-name-container {
+			position: absolute;
+			bottom: 5px;
+			padding-left: 5px;
+			padding-right: 5px;
+			width: 100%;
+		}
+
+		.boarder-lineup-image .boarder-name {
+			background: rgba(59, 59, 59, .6);
+			font-size: 16px;
+			width: 100%;
+			line-height: 1.5em;
+			text-align: center;
+		}
+
+		.boarder-lineup-image .boarder-name a {
+			text-decoration: none;
+			color: rgba(117, 180, 198, .4);
+		}
+
+		.lineup-content span {
+			font-weight: 400;
+		}
+		.lineup-content span:before {
+			content: " ";
+		}
+
+		.add-boarder {
+
+		}
+		#add-boarder-button {
+			position: absolute;
+			bottom: 6px;
+			right: 38px;
+	        padding: 5px 11px 6px;
+	        font-size: 14px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      }
+
+		
+
+	/*  <!--        investment levels content            -->  ------------------------------------------------------------ */
+
+	/*  <!--        comments/watches/recommends content            -->  ------------------------------------------------------------ */
+
+		.cwr-box {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.standard-newsfeed {
+			width: 235px;
+		}
+
+		.contains-crowdboard {
+			min-width: 240px;
+			max-width: 320px;
+		}
+		.newsfeed-message {
+			float: left;
+			background: #F7F7F7;
+			padding: 4px 6px;
+			margin: 5px 5px;
+			font-size: 12px;
+			min-height: 58px;
+			cursor: pointer;
+		}
+		.newsfeed-comment {
+			float:left;
+			min-height: 58px;
+			line-height: 1.2em;
+		}
+		.newsfeed-comment .district-tag a, .newsfeed-comment .area-tag a  {
+			font-size: 10px;
+		}
+			.newsfeed-image img {
+				float: left;
+				width: 50px;
+				height: 50px;
+				margin-right: 8px;
+				margin-bottom: 8px;
+			}
+			.message-attribution {
+				display: inline;
+				font-size: 12px;
+			}
+			.newsfeed-message .newsfeed-comment {
+				padding-top: 3px;
+				background: #fff;
+				width: 100%;
+				font-size: 
+			}
+
+
+/* pseudo-elements
+-------------------------------------------------- */
+#add-boarder-button:hover {
+	background: #3C6C79;
+}
+
+.boarder-lineup-image:hover .boarder-name a {
+	color: rgba(117, 180, 198, .6);
+}
+
+
+.boarder-lineup-image .boarder-name a:hover {
+	color: rgba(117, 180, 198, .6);
+}
+
+.floating-column a:hover, .media-links-box a:hover, .info-pack-box a:hover {
+	color:#3C6C79;
+}
+
+.crowdboard-mini-console img:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.crowdboard-comment:hover, .crowdboard-recommend:hover, .crowdboard-watch:hover, .crowdboard-boost:hover {
+	-webkit-box-shadow: 0 0 4px rgba(60, 108, 121, 1);
+          	box-shadow: 0 0 4px rgba(60, 108, 121, 1);
+}
+
+
+.crowdboard-video .crowdboard-play-button a:hover img {
+	border: 4px solid rgba(255, 255, 255, 0);
+}

@@ -1,0 +1,387 @@
+a {
+	text-decoration: none;
+}
+
+.main-body {
+	width: 100%;
+	height: 400px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-top: 100px;
+    border-radius: 3px;
+    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+    background: #FBFBFB;
+    text-align: center;
+}
+
+.accordian-body {
+	width: 100%;
+	min-height: 400px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding: 14px;
+    border-radius: 3px;
+    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+    background: #FBFBFB;
+    overflow: auto;
+}
+
+.main-body .welcome-text {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.get-started-button {
+		margin-top: 40px;
+        padding: 10px 24px 11px;
+        font-size: 24px;    
+        font-weight: 600;
+        background-color: #75B4C6;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.accordianNew {
+	width: 100%;
+	height: 48px;
+	margin-top: 6px;
+	border-radius: 3px;
+	padding-top: 14px;
+	padding-left: 14px;
+    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+    background: #FBFBFB;
+}
+
+	.step-title {
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	.step-title a {
+		color: #75B4C6;
+		font-weight: 100;
+		margin-left: 10px;
+	}
+
+
+/* Step 1  Choose Type
+-------------------------------------------------- */
+	.crowdboard-type-container {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
+		min-height: 220px;
+		width: 620px;
+		position: relative;
+	}
+	.crowdboard-type {
+		float: left;
+		height: 100px;
+		width: 200px;
+		margin: 2px;
+		background: #75B4C6;;
+		color: #fff;
+		text-align: center;
+		padding-top: 20px;
+		line-height: 1.8em;
+		border-radius: 2px;
+	}
+	.crowdboard-type span {
+		font-size: 16px;
+		font-weight: 100;
+	}
+	.crowdboard-type span:first-child {
+		font-size: 24px;
+		font-weight: 400;
+	}
+
+	.not-sure {
+		font-size: 18px;
+		font-weight: 600;
+		position: absolute;
+		right: -190px;
+		bottom: 12px;
+	}
+
+	.not-sure a {
+		font-weight: 100;
+		color: #75B4C6;
+		margin-left: 6px;
+	}
+
+/* Step 2  Enter Details
+-------------------------------------------------- */
+	.crowdboard-details-container {
+
+	}
+
+	.crowdboard-details-container input {
+		font-size: 16px;
+		line-height: 1.5em;
+		padding-left: 5px;
+	}
+	.left-portion {
+		position: relative;
+		float: left;
+		min-height: 350px;
+		padding: 12px;
+		width: 62%;
+	}
+	.crowdboard-details-container .right-portion {
+		float: right;
+		min-height: 350px;
+		width: 38%;
+		background: #E8EAE9;
+	}
+
+	.crowdboard-details-container .left-portion .first-row {
+		font-size: 20px;
+		margin-top: 10px;
+
+	}
+	.crowdboard-details-container .left-portion .first-row input {
+		margin-left: 10px;
+	}
+	.crowdboard-details-container .left-portion .first-row a {
+		font-size: 16px;
+		font-weight: 100;
+		color: #75B4C6;
+		margin-left: 10px;
+	}
+
+	.crowdboard-details-container .left-portion .second-row {
+		margin-top: 8px;
+	}
+	.crowdboard-details-container .left-portion .second-row .picture-frame {
+		float: left;
+		margin-left: 140px;
+		height: 120px;
+		width: 120px;
+		border: 1px solid #C6C7C8;
+		position: relative;
+		background: #fff;
+	}
+	.crowdboard-details-container .left-portion .second-row .picture-frame span {
+		position: absolute;
+		font-style: oblique;
+		bottom: 2px;
+		right: 5px;
+		font-size: 12px;
+	}
+	.crowdboard-details-container .left-portion .second-row .name-crowdboard input {
+		position: absolute;
+		bottom: 0px;
+		left: 150px;
+		width: 300px;
+	}
+
+	.crowdboard-details-container .left-portion .third-row {
+		clear: both;
+		padding-top: 10px;
+		padding-left: 32px;
+	}
+	.crowdboard-details-container .left-portion .third-row .description {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 8px;
+	}
+	.crowdboard-details-container .left-portion .third-row .description span {
+		
+	}
+	.crowdboard-details-container .left-portion .third-row .description span:first-child {
+		font-size: 20px;
+		float: left;
+	}
+	.crowdboard-details-container .left-portion .third-row .description span:last-child {
+		font-size: 12px;
+		position: absolute;
+		bottom: 0px;
+		left: 550px;
+		font-style: oblique;
+	}
+	.crowdboard-details-container .left-portion .third-row .description textarea {
+		float: left;
+		margin-left: 8px;
+		padding: 8px;
+		width: 430px;
+		border: 1px solid #B9B9B9;
+	}
+
+	.crowdboard-details-container .left-portion .fourth-row {
+		clear: both;
+		font-size: 20px;
+		position: relative;
+		margin-bottom: 8px;
+		padding-left: 35px;
+		line-height: 1.5em;
+
+	}
+	.crowdboard-details-container .left-portion .fourth-row input:first-child {
+		margin-left: 30px;
+	}
+
+	.crowdboard-details-container .left-portion .fifth-row {
+		font-size: 20px;
+		padding-left: 33px;
+		margin-bottom: 8px;
+	}
+	.crowdboard-details-container .left-portion .fifth-row input {
+		margin-left: 6px;
+	}
+
+	.crowdboard-details-container .left-portion .sixth-row {
+		font-size: 20px;
+		padding-left: 33px;
+	}
+	.crowdboard-details-container .left-portion .sixth-row input {}
+	.see-district-button {
+		margin-left: 22px;
+        padding: 2px 12px 4px;
+        font-size: 20px;    
+        font-weight: 100;
+        background-color: #75B4C6;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	}
+
+	.bottom-right-corner {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	.next-step-button {
+        padding: 6px 28px 8px;
+        font-size: 24px;    
+        font-weight: 100;
+        background-color: #75B4C6;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	}
+
+/* Step 3  Set Levels
+-------------------------------------------------- */
+
+.crowdboard-levels-container {
+	font-size: 20px;
+	line-height: 2em;
+}
+	.crowdboard-levels-container input {
+		font-size: 16px;
+		line-height: 1.5em;
+		padding-left: 5px;
+		margin-left: 8px;
+	}
+
+
+	.crowdboard-levels-container .left-portion .first-row {
+		font-weight: 600;
+		margin-left: 170px;
+	}
+
+	.add-level-button {
+		    padding: 0px 12px 2px;
+	        font-size: 18px;    
+	        font-weight: 100;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	}
+	.crowdboard-levels-container .left-portion .second-row {
+		margin-left: 132px;
+	}
+	.crowdboard-levels-container .left-portion .third-row {
+		margin-left: 168px;
+	}
+	.crowdboard-levels-container .left-portion .fourth-row {
+		margin-left: 88px;
+	}
+	.crowdboard-levels-container .left-portion .fifth-row {
+		margin-left: 138px;
+	}
+	.crowdboard-levels-container .left-portion .fifth-row span {
+		float: left;
+	}
+	.crowdboard-levels-container .left-portion .fifth-row textarea {
+		width: 40%;
+		margin-left: 8px;
+		margin-top: 8px;
+		border: 1px solid #B9B9B9;
+	}
+
+	.crowdboard-levels-container .right-portion {
+		float: right;
+		min-height: 50px;
+		width: 38%;
+		background: #E8EAE9;
+	}
+
+/* Step 4  See Preview
+-------------------------------------------------- */
+	.crowdboard-preview-container {
+		padding-left: 120px;
+	}
+	.crowdboard-preview-container .crowdboard-container {
+		margin-bottom: 20px;
+	}
+
+	.crowdboard-preview-container .bottom-right-corner {
+		bottom: 30px;
+		right: 150px;
+	}
+
+	.save-button {
+        padding: 6px 28px 8px;
+        font-size: 24px;    
+        font-weight: 100;
+        background-color: #75B4C6;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	}
+
+/* pseudo-elements
+-------------------------------------------------- */
+.step-title a:hover {
+	color: #3C6C79;
+}
+
+.get-started-button:hover, .crowdboard-type:hover, .see-district-button:hover, .next-step-button:hover, .add-level-button:hover, .save-button:hover {
+	background-color: #3C6C79;
+}

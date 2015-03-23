@@ -1,0 +1,157 @@
+E:\Steve\VS2010\CrowdBoardsApp\obj\Debug\ResolveAssemblyReference.cache
+E:\Steve\VS2010\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.Resources.resources
+E:\Steve\VS2010\CrowdBoardsApp\obj\Debug\GenerateResource.read.1.tlog
+E:\Steve\VS2010\CrowdBoardsApp\obj\Debug\GenerateResource.write.1.tlog
+E:\Steve\VS2010\CrowdBoardsApp\bin\CrowdBoardsApp.dll
+E:\Steve\VS2010\CrowdBoardsApp\bin\CrowdBoardsApp.pdb
+E:\Steve\VS2010\CrowdBoardsApp\bin\CrowdBoardsApp.xml
+E:\Steve\VS2010\CrowdBoardsApp\bin\Telerik.Web.UI.xml
+E:\Steve\VS2010\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.dll
+E:\Steve\VS2010\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.xml
+E:\Steve\VS2010\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.pdb
+E:\OfficeProject\CrowdBoardsApp\bin\CrowdBoardsApp.dll
+E:\OfficeProject\CrowdBoardsApp\bin\CrowdBoardsApp.pdb
+E:\OfficeProject\CrowdBoardsApp\bin\CrowdBoardsApp.xml
+E:\OfficeProject\CrowdBoardsApp\bin\Telerik.Web.UI.xml
+E:\OfficeProject\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.Resources.resources
+E:\OfficeProject\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.dll
+E:\OfficeProject\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.xml
+E:\OfficeProject\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.pdb
+E:\OfficeProject\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbprojResolveAssemblyReference.cache
+E:\OfficeProject\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.GenerateResource.Cache
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbprojResolveAssemblyReference.cache
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.Resources.resources
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.GenerateResource.Cache
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.dll
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.xml
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.pdb
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\bin\CrowdBoardsApp.dll
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\bin\CrowdBoardsApp.pdb
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\bin\CrowdBoardsApp.xml
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\bin\LinkedInLibrary.pdb
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\bin\Telerik.Web.UI.xml
+E:\OfficeProject\CrowdBoards\CrowdBoardsApp\bin\TwitterLibrary.pdb
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\Telerik.Web.UI.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll.config
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.pdb
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\Stripe.net.pdb
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.pdb
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.App.config
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbprojResolveAssemblyReference.cache
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.Resources.resources
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.GenerateResource.Cache
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.dll
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.xml
+E:\ServerProjects\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.pdb
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\Telerik.Web.UI.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll.config
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.pdb
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\Stripe.net.pdb
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.pdb
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.App.config
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbprojResolveAssemblyReference.cache
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.Resources.resources
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.GenerateResource.Cache
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.dll
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.xml
+E:\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.pdb
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll.config
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.pdb
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\Stripe.net.pdb
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.pdb
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\bin\Telerik.Web.UI.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.App.config
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbprojResolveAssemblyReference.cache
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.Resources.resources
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.GenerateResource.Cache
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.xml
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.pdb
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll.config
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.pdb
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\CrowdBoardsApp.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\Stripe.net.pdb
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\YahooLibrary.pdb
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\LinkedIn.NET.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.IO.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Extensions.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.Primitives.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Net.Http.WebRequest.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Runtime.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\System.Threading.Tasks.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\bin\Telerik.Web.UI.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.App.config
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbprojResolveAssemblyReference.cache
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.Resources.resources
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.vbproj.GenerateResource.Cache
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.xml
+C:\Users\Allen\Desktop\CrowdBoardsApp\CrowdBoardsApp\obj\Debug\CrowdBoardsApp.pdb

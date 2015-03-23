@@ -1,0 +1,104 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SiteMaster.master.vb" Inherits="CrowdBoardsApp.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../WebContent/Theme/styles/template.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="../WebContent/Theme/jQuery/jquery.js" type="text/javascript"></script>
+    <script src="../WebContent/Theme/scripts/template.js" type="text/javascript"></script>
+</head>
+<body>
+<form id="form1" runat="server">
+ <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+    </telerik:RadAjaxManager>
+ <telerik:RadScriptBlock ID="RadScriptBlock1" runat="server">
+        <script type="text/javascript">
+            function OnClientClose(oWnd, args) {
+                var arg = args.get_argument();
+                if (arg == "OK") {
+                    var ajaxManager = $find("<%= RadAjaxManager1.ClientID %>");
+                    var Argument = "ReLoad";
+                    ajaxManager.ajaxRequest(Argument);
+                }
+                else if (arg != null) {
+                    window.location = arg;
+                }
+            }
+
+            function openRadWindow() {
+                var manager = $find("<%= RadWindowManager1.ClientID %>");
+                var url = "rwWrongPassword.aspx?page=FAQ";
+                manager.open(url, "RadWindow1");
+                return false;
+            }
+        </script>
+    </telerik:RadScriptBlock>
+
+ <div class = "navbar opaque">
+		<div class = "left-floating-elements">
+			<ul>
+				<li>
+					<span class = "white-link"><asp:LinkButton ID="lbtnSignMeUp" runat="server" Text="Sign Up" Visible="false"
+                                PostBackUrl="~/Default.aspx"></asp:LinkButton></span>
+				</li>
+                <li>
+					<span class = "white-link">  <asp:LinkButton ID="lbtnLogin" runat="server" Text="Login" Visible="false" 
+                                OnClientClick="return openRadWindow();"></asp:LinkButton></span>
+				</li>
+                <li>
+					<span class = "white-link"><asp:LinkButton ID="lbtnLogout" runat="server" Text="Logout"></asp:LinkButton></span>
+				</li>
+                <li>
+                <span class="white-link"><asp:LinkButton ID="lbtnBack" runat="server" Text="Back" PostBackUrl="javascript:history.go(-1);"></asp:LinkButton></span>
+                </li>
+			</ul>
+		</div>
+		<div class = "right-floating-elements">
+			<ul>
+				<li>
+					<span class = "blue-link"><asp:LinkButton ID="lbtnHome" runat="server" Text="Home"></asp:LinkButton></span>
+				</li>
+                <li>
+					<span class = "blue-link"><a href ="../AboutUs.aspx">About</a></span>
+				</li>
+				<li>
+					<span class = "blue-link"><a href ="../FAQ.aspx">FAQ</a></span>
+				</li>
+				<li>
+					<span class = "blue-link"><a href ="../Terms.aspx">Terms of Service</a></span> 
+				</li>
+			</ul>
+		</div>
+	</div>
+
+    
+     <asp:scriptmanager runat="server" id="RadScriptManager1">
+    </asp:scriptmanager>  
+
+   	<div class = "container">
+        <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+        <Windows>
+            <telerik:RadWindow runat="server" ID="RadWindow1" Behaviors="Close" OnClientClose="OnClientClose"
+                Width="650" Height="550">
+            </telerik:RadWindow>
+        </Windows>
+    </telerik:RadWindowManager>
+
+    </form>
+
+    
+    <footer>
+		<img src="../WebContent/Theme/images/crowdboarders.png"/><br/> &copy Copyright 2014 CrowdBoarders INC. - Get Boarding :)
+	</footer>
+
+</body>
+</html>

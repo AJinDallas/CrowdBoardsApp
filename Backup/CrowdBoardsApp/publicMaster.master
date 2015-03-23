@@ -1,0 +1,142 @@
+<%@ Master Language="VB" Inherits="CrowdBoardsApp.publicMaster" CodeBehind="publicMaster.master.vb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css' />
+    <link href="Css/Style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function printpage() {
+            window.print();
+        }
+       
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:scriptmanager runat="server" id="RadScriptManager1">
+        <scripts>
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+        </scripts>
+    </asp:scriptmanager>
+    <div id="header">
+        <table style="z-index: 120; margin: auto" cellspacing="0" cellpadding="0" width="100%"
+            border="0">
+            <tr>
+                <td style="width: 5%;">
+                    &nbsp;
+                </td>
+                <td style="width: 65%;">
+                    <asp:image id="Image1" runat="server" height="90" width="300" imageurl="~/Images/Crowdboarders.jpg" />
+                </td>
+                <td style="width: 30%;">
+                    <asp:button id="btnHome" runat="server" text="Home" cssclass="primaryButton" postbackurl="~/Home.aspx">
+                    </asp:button>
+                    <asp:button id="btnManageRoles" runat="server" text="Manage Roles" cssclass="primaryButton">
+                    </asp:button>
+                    <asp:button id="btnLogout" runat="server" text="Log Out" cssclass="primaryButton"></asp:button>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td style="width: 3%;">
+                    &nbsp;
+                </td>
+                <td style="width: 94%;">
+                    <asp:linkbutton id="lbtnUsers" runat="server" text="All Users |" postbackurl="~/Admin/Users.aspx">
+                    </asp:linkbutton>
+                    <asp:linkbutton id="lbtnBoards" runat="server" text="All Boards |" postbackurl="~/Admin/Boards.aspx">
+                    </asp:linkbutton>
+                    <asp:linkbutton id="lbtnPosts" runat="server" text="All Posts |" postbackurl="~/Admin/Posts.aspx">
+                    </asp:linkbutton>
+                    <asp:linkbutton id="lbtnDistricts" runat="server" text="Districts |" postbackurl="~/Admin/Districts.aspx">
+                    </asp:linkbutton>
+                    <asp:linkbutton id="lbtnAreas" runat="server" text="Areas |" postbackurl="~/Admin/Areas.aspx">
+                    </asp:linkbutton>
+                    <asp:linkbutton id="lbtnInvestmentTypes" runat="server" text="Investment Types |"
+                        postbackurl="~/Admin/InvestmentTypes.aspx">
+                    </asp:linkbutton>
+                    <asp:linkbutton id="lbtnImages" runat="server" text="All Images |" postbackurl="~/Admin/AllImages.aspx">
+                    </asp:linkbutton>
+                    <asp:linkbutton id="lbtnIntrest" runat="server" text="All Users List" postbackurl="~/Admin/IntrestList.aspx">
+                    </asp:linkbutton>
+                     <asp:linkbutton id="lbtnReferralUser" runat="server" text="Referral Users " postbackurl="~/Admin/ReferralUsers.aspx">
+                    </asp:linkbutton>
+                </td>
+                <td align="right" style="width: 3%;">
+                    <input type="button" value="Print" onclick="printpage()" class="primaryButton" />
+                </td>
+            </tr>
+        </table>
+        <%--<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+            <AnonymousTemplate>
+                <table style="z-index: 120; margin: auto" cellspacing="0" cellpadding="0" width="849"
+                    border="0">
+                    <tr>
+                        <td>
+                            <asp:Image ID="topLogo" runat="server" Height="90" Width="300" ImageUrl="~/Images/Crowdboarders.jpg" />
+                        </td>
+                         <td class="Labelheading">
+                            <a href="Home.aspx" id="home" runat="server">Home</a>
+                        </td>
+                         <td>
+                    
+                                <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                                LogoutPageUrl="Default.aspx?Logout=yes" />
+                        </td>
+                        <td>
+                            <a href="Search.aspx" id="searchBrowse" runat="server">Search/Browse</a>
+                        </td>
+                        <td>
+                            <a href="Account/Login.aspx" id="loginRegister" runat="server">Login/Register</a>
+                        </td>
+                        <td>
+                            <a href="#" id="aboutUs" runat="server">About Us</a>
+                        </td>
+        </tr> </table> </AnonymousTemplate>
+        <loggedintemplate>
+                <table style="z-index: 120; margin: auto" cellspacing="0" cellpadding="0" width="1050"
+                    border="0">
+                    <tr>
+                        <td>
+                            <asp:Image ID="topLogo" runat="server" Height="90" Width="300" ImageUrl="~/Images/Crowdboarders.jpg" />
+                        </td>
+                        <td class="Labelheading">
+                            <a href="Home.aspx" id="home" runat="server">Home</a>
+                        </td>
+                        <td class="Labelheading">
+                            <a href="Profile.aspx" id="viewprofile" runat="server">View profile</a>
+                        </td>
+                        <td class="Labelheading">
+                            <a href="MyProfile.aspx" id="editprofile" runat="server">Edit profile</a>
+                        </td>
+                        <td>
+                            <a href="Messages.aspx" id="messages" runat="server">Messages</a>
+                        </td>
+                       <td>
+                            <a href="Search.aspx" id="searchBrowse" runat="server">Search/Browse</a>
+                        </td>
+                        <td>
+                            <a href="Account/ChangePassword.aspx" id="changePassword" runat="server">Change Password</a>
+                        </td>
+        <td>
+            <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                LogoutPageUrl="Default.aspx?Logout=yes" />
+        </td>
+        </tr> </table> </loggedintemplate> </asp:LoginView>--%>
+    </div>
+    <div style="margin-top: 10px">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+        <asp:contentplaceholder id="ContentPlaceHolder2" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

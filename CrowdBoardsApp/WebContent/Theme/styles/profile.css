@@ -1,0 +1,341 @@
+html {
+	font-size: 1em;
+}
+
+.container {
+	background: none;
+
+}
+
+/* FIRST ROW
+----------------------------------------------------------------------------- */
+#first-row {
+	position: relative;
+}
+
+	.profile-banner {
+		width:100%;
+		margin-top: 4px;
+	}
+
+		.banner-picture img {
+			width: 100%;
+			height: 280px;
+
+		}
+
+	.profile-picture {
+		width: 190px;
+		height: 190px;
+		padding: 5px;
+		position: absolute;
+		top: 200px;
+		left:8px;
+	}
+	.profile-picture img {
+		width: 180px;
+		height: 180px;
+	}
+
+
+/* SECOND ROW
+----------------------------------------------------------------------------- */
+#second-row {
+
+}
+
+	/* FIRST Column
+	----------------------------------------------------------------------------- */
+	.col1 {
+		background: #FBFBFB;
+		width: 18%;
+		margin-top: 5px;
+		padding-top: 120px;
+	}
+	.profile-name {
+		text-align: center;
+		font-size: 26px;
+	}
+
+	#add-button {
+		display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        padding: 8px 30px 9px;
+        font-size: 24px;    
+        font-weight: 600;
+        background-color: #75B4C6;
+        color: #ffffff;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    }
+    .col1 a {
+    	display: inline-block;
+    	margin-left: 10px;
+    	text-decoration: none;
+    	font-size: 20px;
+    	line-height: 2em;
+    	color: #75B4C6;
+    }
+
+    .my-activity span, .my-districts span, .my-areas span, .my-crowdboards span, .my-boardfolio span, .my-lineup span {
+    	margin-left: 0px;
+    	font-size:16px;
+    }
+
+
+	/* SECOND Column
+	----------------------------------------------------------------------------- */
+	.col2 {
+		width: 27%;
+		margin-top: 5px;
+		margin-bottom: 8px;
+		margin-left: .2%;
+		height: 155px;
+		padding: 12px;
+		overflow: scroll;
+		font-weight: 600;
+		line-height: 1.33em;
+		font-size: .9em;
+	}
+
+	.col2 span {
+		font-weight: 400;
+		margin-left: .3em;
+	}
+
+	/* THIRD Column
+	----------------------------------------------------------------------------- */
+	.col3 {
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 8px;
+		padding: 12px;
+    	width: 53.6%;
+    	height: 155px;
+    	margin-left: .2%;
+    	background-color: #FBFBFB;
+    	border-radius: 2px;
+    	overflow:scroll;
+    	font-weight: 600;
+    	font-size: .9em;
+    	line-height: 1.2em;
+    	-webkit-box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+        	    box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+	}
+
+	.col3 div div {
+		font-weight: 400;
+		}
+	/* FOURTH Column
+	----------------------------------------------------------------------------- */
+	.col4 {			
+		float: left;
+		padding: 8px;
+    	width: 81.3%;
+    	height: 402px;
+    	margin-left: .2%;
+    	background-color: #FBFBFB;
+    	border-radius: 2px;
+    	overflow: scroll;
+    	-webkit-box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+        	    box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+	}	
+		.col4 a {
+			text-decoration: none;
+		}
+		.col4 .profile-name {
+			line-height: 1.7em;
+			margin-left: 15px;
+		}
+
+		.page-name {
+			font-size: 26px;
+		}
+
+		.standard-newsfeed {
+			width: 240px;
+		}
+
+		.contains-crowdboard {
+			min-width: 240px;
+			max-width: 320px;
+		}
+		.newsfeed-message {
+			float: left;
+			background: #F7F7F7;
+			padding: 4px 6px;
+			margin: 5px 5px;
+			font-size: 12px;
+			min-height: 58px;
+			cursor: pointer;
+		}
+		.newsfeed-comment {
+			float:left;
+			min-height: 58px;
+			line-height: 1.2em;
+		}
+		.newsfeed-comment .district-tag a, .newsfeed-comment .area-tag a  {
+			font-size: 10px;
+		}
+			.newsfeed-image img {
+				float: left;
+				width: 50px;
+				height: 50px;
+				margin-right: 8px;
+				margin-bottom: 8px;
+			}
+			.message-attribution {
+				display: inline;
+				font-size: 12px;
+			}
+			.newsfeed-message .newsfeed-comment {
+				padding-top: 3px;
+				background: #fff;
+				width: 100%;
+				font-size: 
+			}
+
+			.crowdboard-container { 
+				margin-top: 0px;
+				margin-bottom: 10px;
+				margin-left: 8px;
+			}
+			
+		.myboardfolio-container, .mycrowdboards-container {
+			padding-top: 10px;
+			padding-left: 10px;
+			padding-bottom: 20px;
+		}
+		.myboardfolio-container .crowdboard-container, .mycrowdboards-container .crowdboard-container {
+			margin-left: 25px;
+		}
+
+		.district, .area {
+			display: inline-block;
+			margin-left: 25px;
+			margin-top: 15px;
+			margin-bottom: 10px;
+		}
+
+		.DAcontent {
+			display: inline;
+			color: #788586;
+		}
+
+		.boarder-lineup {
+			position: relative;;
+	        border-radius: 1px;
+	        display: inline-block;
+	        background: #FFFFFF;
+	        width: 320px;
+	        margin-right: 5px;
+	        margin-left: 5px;
+	        margin-bottom: 5px;
+	        margin-top: 5px;
+	       	min-height: 140px;
+	        font-size: 18px;
+	        padding: 5px;
+	        padding-bottom: 40px;
+          	-webkit-box-shadow: 0 0 8px rgba(150, 149, 150, 1);
+               	    box-shadow: 0 0 8px rgba(150, 149, 150, 1); 
+		}
+		.boarder-lineup img {
+			height: 70px;
+			width: 70px;
+			float: left;
+			margin-right: 5px;
+			margin-bottom: 5px;
+		}
+
+		.lineup-content {
+			font-size: 14px;
+			line-height: 1.4em;
+			color: #788586;
+			font-weight: 600;
+		}
+		.lineup-content .boarder-name {
+			margin-top: 8px;
+		}
+		.lineup-content span {
+			font-weight: 400;
+			margin-left: 4px; 
+		}
+		.add-boarder {
+
+		}
+		#add-boarder-button {
+			position: absolute;
+			bottom: 6px;
+			right: 5px;
+	        padding: 5px 11px 6px;
+	        font-size: 14px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      }
+.add-boarder-button {
+			position: absolute;
+			bottom: 6px;
+			right: 5px;
+	        padding: 5px 11px 6px;
+	        font-size: 14px;    
+	        font-weight: 600;
+	        background-color: #75B4C6;
+	        color: #ffffff;
+	        border-radius: 5px;
+	        -moz-border-radius: 5px;
+	        -webkit-border-radius: 5px;
+	        border: none;
+	        cursor: pointer;
+	        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      }
+		}
+
+/* pseudo-elements
+-------------------------------------------------- */
+	.col1 a:hover {
+		color: #3C6C79;
+	}
+
+	.col3:hover, .col4:hover, .boarder-lineup:hover {
+		-webkit-box-shadow: 0 0 8px rgba(60, 108, 121, 1);
+         		box-shadow: 0 0 8px rgba(60, 108, 121, 1);
+	}
+
+	#add-button:hover, #add-boarder-button:hover {
+		background: #3C6C79;
+	}
+	.add-button:hover, .add-boarder-button:hover {
+		background: #3C6C79;
+	}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+	@media only screen and (min-width: 1400px) {
+  .container{
+    width: 1400px;
+  }
+}
+
+
+

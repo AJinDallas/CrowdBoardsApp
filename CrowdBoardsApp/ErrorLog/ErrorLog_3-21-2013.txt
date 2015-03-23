@@ -1,0 +1,55 @@
+
+3/21/2013 12:55:07 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASPSnippets.FaceBookAPI.FaceBookConnect.Authorize(String scope, String redirectUrl)
+   at CrowdBoardsApp._Default.signInFacebook_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 37
+3/21/2013 12:56:38 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASPSnippets.FaceBookAPI.FaceBookConnect.Authorize(String scope, String redirectUrl)
+   at CrowdBoardsApp._Default.signInFacebook_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 37
+3/21/2013 12:59:03 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASPSnippets.FaceBookAPI.FaceBookConnect.Authorize(String scope, String redirectUrl)
+   at CrowdBoardsApp._Default.signInFacebook_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 37
+3/21/2013 5:30:36 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Board.LoadChart1() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 51
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38
+3/21/2013 6:01:46 PM
+System.InvalidCastException: Conversion from type 'DBNull' to type 'Integer' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at CrowdBoardsApp.Board.LoadChart() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 51
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38
+3/21/2013 6:03:38 PM
+System.InvalidCastException: Conversion from type 'DBNull' to type 'Integer' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at CrowdBoardsApp.Board.LoadChart() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 51
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38
+3/21/2013 6:05:25 PM
+System.InvalidCastException: Conversion from type 'DBNull' to type 'Integer' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at CrowdBoardsApp.Board.LoadChart() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 51
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38
+3/21/2013 6:06:24 PM
+System.InvalidCastException: Conversion from type 'DBNull' to type 'Integer' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at CrowdBoardsApp.Board.LoadChart() in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 51
+   at CrowdBoardsApp.Board.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Board.aspx.vb:line 38

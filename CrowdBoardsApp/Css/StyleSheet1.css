@@ -1,0 +1,48 @@
+﻿/*!
+ * Bootstrap v2.0.4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+
+
+a:link
+{
+    color: #005580;
+    text-decoration: none;
+ 
+}
+a:hover
+{
+    text-decoration: underline;
+    color: #005580;
+   
+}
+a:active
+{
+    text-decoration: underline;
+    color: #000000;
+}
+
+
+a:visited
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.DivCorner
+{
+    border-top-left-radius: 6px 6px;
+    border-bottom-right-radius: 6px 6px;
+    border-top-right-radius: 6px 6px;
+    border-bottom-left-radius: 6px 6px;
+}
+
+

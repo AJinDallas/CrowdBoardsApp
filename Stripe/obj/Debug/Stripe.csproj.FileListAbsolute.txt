@@ -1,0 +1,28 @@
+D:\Backup_Projects\CB_For_stripe_payment\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.dll
+D:\Backup_Projects\CB_For_stripe_payment\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.pdb
+D:\Backup_Projects\CB_For_stripe_payment\CrowdBoardsApp\Stripe\bin\Debug\Newtonsoft.Json.dll
+D:\Backup_Projects\CB_For_stripe_payment\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.dll
+D:\Backup_Projects\CB_For_stripe_payment\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.pdb
+E:\ServerProjects\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.dll
+E:\ServerProjects\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.pdb
+E:\ServerProjects\CrowdBoardsApp\Stripe\bin\Debug\Newtonsoft.Json.dll
+E:\ServerProjects\CrowdBoardsApp\Stripe\obj\Debug\Stripe.csprojResolveAssemblyReference.cache
+E:\ServerProjects\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.dll
+E:\ServerProjects\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.pdb
+E:\CB_without referral\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.dll
+E:\CB_without referral\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.pdb
+E:\CB_without referral\CrowdBoardsApp\Stripe\bin\Debug\Newtonsoft.Json.dll
+E:\CB_without referral\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.dll
+E:\CB_without referral\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.pdb
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.pdb
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\Stripe\bin\Debug\Newtonsoft.Json.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\Stripe\obj\Debug\Stripe.csprojResolveAssemblyReference.cache
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.dll
+D:\BACKUP\PROJECT\ALLBACKUP_2014\Nov_2014\CBLiveBackup_29_Nov_2014\CB_without referral\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.pdb
+C:\Users\Allen\Desktop\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\Stripe\bin\Debug\Stripe.net.pdb
+C:\Users\Allen\Desktop\CrowdBoardsApp\Stripe\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\Stripe\obj\Debug\Stripe.csprojResolveAssemblyReference.cache
+C:\Users\Allen\Desktop\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.dll
+C:\Users\Allen\Desktop\CrowdBoardsApp\Stripe\obj\Debug\Stripe.net.pdb

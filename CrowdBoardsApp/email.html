@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CrowdBoarders</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/main.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+  
+<script type="text/javascript">
+    function SeeVideo() {
+        var txt = document.getElementById("email-input-text");
+        if (txt.value == "") {
+            alert("Please enter your email address to see video.");
+            return false;
+        }
+        else {
+            alert("Thank you for your interest.  You will be contacted shortly.");
+            return true;
+        }
+    }
+        </script>
+</head>
+<body>
+    <div class="container email-container">
+        <div class="banner-picture email-banner">
+            <img src="Images/images/banner3.jpg" />
+        </div>
+        <div class="headline">
+            The world's first social investing network</div>
+        <div class="sign-up-row">
+            <form id="contact-form" method="post" action="sendMail.aspx" enctype="application/x-www-form-urlencoded">
+            <div style="padding-left: 30px;">
+                <input type="text" name="contact[email]" placeholder="Enter your email..." id="email-input-text" />
+                <input type="submit" id="see-video-button" name="Submit" value="See Video" onclick="return SeeVideo();" />
+            </div>
+            </form>
+            <!--<input type="text" name="email" placeholder="Enter your email..." id="email-input-text" />-->
+            <!-- <input type="button" value="See Video" id="see-video-button" />-->
+        </div>
+    </div>
+</body>

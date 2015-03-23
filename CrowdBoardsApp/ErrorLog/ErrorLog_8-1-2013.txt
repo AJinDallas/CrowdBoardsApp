@@ -1,0 +1,22 @@
+
+8/1/2013 6:28:39 PM
+System.ArgumentNullException: Value cannot be null.
+Parameter name: consumerKey
+   at Twitterizer.OAuthUtility.GetRequestToken(String consumerKey, String consumerSecret, String callbackAddress, WebProxy proxy)
+   at Twitterizer.OAuthUtility.GetRequestToken(String consumerKey, String consumerSecret, String callbackAddress)
+   at CrowdBoardsApp._Default.signInTwitter_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 69
+8/1/2013 6:29:01 PM
+System.ArgumentNullException: Value cannot be null.
+Parameter name: consumerKey
+   at Twitterizer.OAuthUtility.GetRequestToken(String consumerKey, String consumerSecret, String callbackAddress, WebProxy proxy)
+   at Twitterizer.OAuthUtility.GetRequestToken(String consumerKey, String consumerSecret, String callbackAddress)
+   at CrowdBoardsApp._Default.signInTwitter_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 69
+8/1/2013 6:32:03 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CrowdBoardsApp._Default.signInTwitter_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 73

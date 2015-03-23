@@ -1,0 +1,13 @@
+
+2/21/2013 7:57:13 PM
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_ProjectInvestors'. Cannot insert duplicate key in object 'dbo.BoardInvestors'.
+The statement has been terminated.
+   at CrowdBoardsApp.Confirm.AddInvestment() in E:\OfficeProject\CrowdBoardsApp\Confirm.aspx.vb:line 148
+   at CrowdBoardsApp.Confirm.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Confirm.aspx.vb:line 24
+ClientConnectionId:ca284ff2-90a7-4e2a-a26b-90297849855c
+2/21/2013 7:59:27 PM
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_ProjectInvestors'. Cannot insert duplicate key in object 'dbo.BoardInvestors'.
+The statement has been terminated.
+   at CrowdBoardsApp.Confirm.AddInvestment() in E:\OfficeProject\CrowdBoardsApp\Confirm.aspx.vb:line 148
+   at CrowdBoardsApp.Confirm.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Confirm.aspx.vb:line 24
+ClientConnectionId:ca284ff2-90a7-4e2a-a26b-90297849855c

@@ -1,0 +1,15 @@
+
+4/22/2013 12:43:37 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+4/22/2013 1:15:23 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'False' to data type int.
+   at CrowdBoardsApp.BoardDetails.UpdateStatusOfBoard(Boolean status) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 156
+   at CrowdBoardsApp.BoardDetails.btnDeActivateBoard_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 140
+ClientConnectionId:f4293352-c08c-4b5b-af67-eaf682754aa6
+4/22/2013 1:16:26 PM
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'False' to data type int.
+   at CrowdBoardsApp.BoardDetails.UpdateStatusOfBoard(Boolean status) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 156
+   at CrowdBoardsApp.BoardDetails.btnDeActivateBoard_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\BoardDetails.aspx.vb:line 140
+ClientConnectionId:fb072cdf-5959-41e7-bad3-03b539aab37c

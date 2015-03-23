@@ -1,0 +1,335 @@
+
+html {
+	font-size: 1em;
+}
+
+.container {
+	background: none;
+}
+
+/* FIRST ROW
+----------------------------------------------------------------------------- */
+
+.first-row {
+	height:120px;
+	width: 100%;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+	.districts{
+		overflow: scroll;
+		padding-top: 20px;
+		padding-bottom: 18px;
+		padding-right: 20px;
+		min-height: 120px;
+		width: 100%;
+		background: #FBFBFB;
+    	border-radius: 2px;
+    	margin: .5% 0;
+    	-webkit-box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+        	    box-shadow:    0 0 6px rgba(150, 149, 150, 1);
+	}
+
+		.title {
+			display: block;
+			width: 180px;
+			text-align: center;
+			padding-top: 30px;
+			padding-bottom: 40px;
+			font-size: 2em;
+			font-weight: 600;
+		}
+		.districts .title {
+			height: 100%;
+			float: left;
+		}
+	
+
+			.districts-list-item {
+				display: block;
+				float: right;
+				min-height: 46px;
+				min-width: 104px;
+				text-align: center;
+				background: #72B2C7;
+				padding-top: 14px;
+				margin: 1px;
+				border-radius: 2px;
+			}
+
+			.districts-list-item a {
+				display: block;
+				width:100%;
+				height: 100%;
+				text-decoration: none;
+				color: #fff;
+				font-variant: normal;
+			}
+
+/* SECOND ROW
+--------------------------------------------------------------------------- */
+
+	.second-row {
+		width: 100%;
+		min-height: 640px;
+		padding-left: 7px;
+		padding-right: 7px;
+		padding-bottom: 7px;
+	}
+
+/* FIRST COLUMN
+-------------------------------------------------- */
+
+
+	.col1 {
+		margin:0;
+		height: 100%;
+		width: 9.8%;
+		background: #FBFBFB;
+		padding-right: 8px;
+		padding-left: 8px;
+		overflow: scroll;
+	}
+
+	.col1 .title {
+		padding-top: 24px;
+		height: 85px;
+		width: 100%;
+	}
+
+		.areas-list-item {
+			font-variant: normal;
+			display: block;
+			min-height: 46px;
+			text-align: center;
+			color: #fff;
+			background: #48A88D;
+			padding-top: 14px;
+			padding-bottom: 14px;
+			margin: 3px;
+			border-radius: 2px;
+			font-size: 13px;
+		}
+		.areas-list-item a {
+			display: block;
+			width:100%;
+			height: 100%;
+			text-decoration: none;
+			color: #fff;
+			font-variant: normal;
+		}
+
+
+/* SECOND COLUMN
+-------------------------------------------------- */
+
+	.col2 {
+		margin: 0 7px;
+		height: 100%;
+		width: 72.2%;
+		background: #FBFBFB;
+		padding: 8px;
+		overflow: scroll;
+	}
+		.welcome-banner, .WOTS-banner {
+			font-variant: normal;
+			position: relative;
+			width:100%;
+			min-height: 100px;
+			padding-top: 15px;
+			padding-bottom: 33px;
+		}
+
+		.districts-welcome-banner, .districts-WOTS-banner {
+			background: #72B2C7;
+		}
+
+		.areas-welcome-banner, .areas-WOTS-banner {
+			background: #48A88D;
+		}
+
+			.welcoming-text, .WOTS-text {
+				text-align:center;
+				color: #fff;
+				font-size: 22px;
+			}
+			.quote-text, .welcome-banner cite {
+				font-style:italic;
+				font-size: 12px;
+				font-variant: normal;
+			}
+			.population-text {
+				position: absolute;
+				bottom: 8px;
+				left: 8px;
+				color: #fff;
+				font-variant: normal;
+				font-size: 14px;
+			}
+			.population-number a {
+				color: #fff;
+			}
+			#add-district-button, #view-full-button, #join-incrowd-button {
+				position: absolute;
+				bottom:5px;
+				right:5px;
+				padding: 5px 8px;
+		        font-size: 12px !important;    
+		        font-weight: 600;
+		        background-color: #EFEFEF;
+		        color: #72B2C7;
+		        border-radius: 5px;
+		        -moz-border-radius: 5px;
+		        -webkit-border-radius: 5px;
+		        border: none;
+		        cursor: pointer;
+		        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+		          -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+		          -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+			}
+			#join-incrowd-button {
+				color: #48A88D;
+			}
+			.areas-WOTS-banner #view-full-button {
+				color: #48A88D;
+			}
+/* THIRD COLUMN
+-------------------------------------------------- */
+	.col3 {
+		margin: 0;
+		height: 100%;
+		width: 16.8%;
+		background: #FBFBFB;
+	    padding: 8px;
+	    float:left;
+	    border-radius: 3px;
+	    -webkit-box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+	            box-shadow:   0 0 6px rgba(150, 149, 150, 1);
+
+	    background: #FBFBFB;
+	    overflow: scroll;
+	}
+		.WOTS-banner {
+			padding-top: 25px;
+		}
+			.WOTS-text {
+				font-size: 18px;
+			}
+
+		.WOTS-post-message {
+			background: #F7F7F7;
+			width: 100%;
+			min-height: 115px;
+			margin-top: 10px;
+			padding: 8px 10px;
+		}
+			form {
+			}
+			textarea {
+				border:none;
+				font-size: 12px;
+			}
+			.WOTS-post-message #post-button {
+				display: block;
+				margin-top: 5px;
+				padding-top: 1px;
+				padding-bottom: 1px;
+			}
+		.WOTS-message {
+			background: #F7F7F7;
+			padding: 4px 6px;
+			margin-top: 5px;
+			font-variant: normal;
+		}
+			.WOTS-message-header {
+				position: relative;
+			}
+			.WOTS-message-header img {
+				height: 50px;
+				width: 50px;
+			}
+
+			.poster-options {
+				position: absolute;
+				float:none;
+				right: 0px;
+				top: 0px;
+
+			}
+			.WOTS-message-header .poster-options img {
+				height: 20px;
+				width: 30px;
+				margin: 0;
+			}
+
+		   .poster-options .recommend-number{
+	          top: 13px;
+	          right: 35px;
+	        }
+	        .poster-options .comment-number {
+	          top: 13px;
+	          right: 69px;
+	        }
+	        .poster-options .boost-number {
+	          top: 13px;
+	          right: 2px;
+	        }
+			.message-attribution {
+				font-size: 12px;
+				position:absolute;
+				bottom: 5px;
+				left: 52px;
+			}
+			.WOTS-message .poster-comment {
+				font-variant: normal;
+				padding-top: 3px;
+				background: #fff;
+				width: 100%;
+				font-size: 
+			}
+
+/* pseudo-elements
+-------------------------------------------------- */
+
+	.col3:hover, .districts:hover {
+		-webkit-box-shadow: 0 0 8px rgba(60, 108, 121, 1);
+         		box-shadow: 0 0 8px rgba(60, 108, 121, 1);
+	}
+
+	/* button pseudo-elements
+	-------------------------------------------------- */
+	.districts-list-item:hover {
+		background: #3C6C79;
+	}
+	.areas-list-item:hover {
+		background: #3D8E78;
+	}
+
+	.districts-list-item a.focus {
+		color: #3C3C3C;
+	}
+	.areas-list-item a.focus {
+		color: #3C3C3C;
+	}
+	#add-district-button:hover, #view-full-button:hover {
+		background: #3C6C79;;
+		color: #fff;
+	}
+
+	#join-incrowd-button:hover, .areas-WOTS-banner #view-full-button:hover {
+		background: #3D8E78;
+		color: #fff;
+	}
+
+
+	/*-------------------------------------------------- */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+	@media only screen and (min-width: 1400px) {
+  .container{
+    width: 1400px;
+  }
+}

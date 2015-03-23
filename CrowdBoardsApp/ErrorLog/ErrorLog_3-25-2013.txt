@@ -1,0 +1,19 @@
+
+3/25/2013 6:26:09 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.Home.LoadData() in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 75
+   at CrowdBoardsApp.Home.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Home.aspx.vb:line 19
+3/25/2013 7:12:44 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrowdBoardsApp.MyProfile.LoadUserInfo() in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 119
+   at CrowdBoardsApp.MyProfile.Page_Load(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\MyProfile.aspx.vb:line 16
+3/25/2013 7:37:34 PM
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ASPSnippets.FaceBookAPI.FaceBookConnect.Authorize(String scope, String redirectUrl)
+   at CrowdBoardsApp._Default.signInFacebook_Click(Object sender, EventArgs e) in E:\OfficeProject\CrowdBoardsApp\Default.aspx.vb:line 37
